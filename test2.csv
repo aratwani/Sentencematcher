@@ -1,0 +1,780 @@
+amd,ym,similarity
+"Feel - I feel it (i.e. hesitation, shimmy, vibration, or a pull)",,0
+Drifts- Gradual movements to one side.,,0
+Loose or Worn Front End Component,,0
+Uneven Tire Pressure,Brake pressure is uneven,0.8476320501615535
+Wheels out of Alignment,,0
+"Excessive play- Looseness, lack of response in the steering wheel.",,0
+Loose/Worn Tie Rod Ends,,0
+Power Steering Rack (Internal Wear),,0
+Pulls- Sharp movement to one side.,,0
+Loose or Worn Front End Component,,0
+Unequal Front Tire Pressure,,0
+Dragging Front Brake,,0
+Wheels out of Alignment,,0
+Pulsation- Fluctuation of the brake pedal when the brakes are applied.,Brake pedal is lower than usual,0.8066227571984066
+Warped Brake Rotors,,0
+Out-of-Round Brake Drums,,0
+Loose or Worn Wheel Bearing,,0
+Shimmy- Rapid side to side movement of the front wheels.,,0
+Loose or Worn Front End Component,,0
+Loose or Worn Wheel Bearing,,0
+Sway- Gradual movement from side to side.,,0
+Worn Out Shocks/Struts,,0
+Loose or Worn Suspension Parts,,0
+Vibration- Vehicle shakes. Ususally felt in the steering wheel or the seat.,Car or steering wheel shakes when braking,0.8615566091607723
+When braking,,0
+Through the steering wheel,Steering wheel does not turn car,0.8936404676253052
+Warped Brake Rotors,,0
+Loose or Worn Front End Component,,0
+Through the seats,,0
+Out-of-Round Brake Drums,,0
+Not Sure,,0
+Warped Brake Rotors,,0
+Out-of-Round Brake Drums,,0
+When accelerating from a stop,,0
+Loose or Worn Front End Component,,0
+Worn Engine Mounts,,0
+Constantly when traveling at higher speeds,,0
+Front Wheels Out of Balance (Wheel Weight Fell Off),,0
+Loose or Worn Front End Component,,0
+Bent Wheel/Rim,,0
+"Hear - I hear it (i.e. a rattle, a knock, or a squeal)",,0
+"Squeal- Continuous, high pitched sound.",,0
+All the time.,,0
+Loose or Worn Drive Belt,,0
+When stopping,,0
+Brake Pad Wear Indicator is Contacting Rotor,,0
+Brake Pad Quality and Rotor Finish,,0
+Worn Brake Pads,Brake pads are wearing out quickly,0.8968142231129685
+Only when I start the vehicle.,Car is not starting,0.8248597138079752
+Loose or Worn Drive Belt,,0
+Only when turning,,0
+Faulty power steering pump,Power steering fluid is leaking,0.8125860730560469
+Power Steering Drive Belt (Damage/Loose),Steering wheel is hard to turn,0.8100950706919294
+Low Power Steering Fluid,Power steering fluid is leaking,0.8768602417274963
+Only when the vehicle is moving,,0
+Brake Pad Wear Indicator is Contacting Rotor,,0
+Brake Pad Quality and Rotor Finish,,0
+Worn Brake Pads,Brake pads are wearing out quickly,0.8968142231129685
+Hiss- Continuous sound like air escaping.,,0
+Air Intake Leak,,0
+Vacuum Leak,Oil/Fluid Leak,0.8109994552962737
+"Knock- Heavy, loud, repeating sound like a knock on the door.",,0
+Low Engine Oil Level,Oil level is low,0.9195714736093745
+Worn Internal Engine Components,,0
+Tap- Light repetitive sound. Louder than a click.,,0
+Engine valve adjustment,,0
+Low Engine Oil Level,Oil level is low,0.9195714736093745
+Low oil pressure,Oil level is low,0.9064336079842168
+Rattle- Marbles in a can like something loose.,,0
+Under the vehicle,,0
+Catalytic Converter Failure,,0
+Loose or Damaged Exhaust,,0
+Under the rear of the vehicle,,0
+Muffler (Damage/Loose),,0
+Tail Pipe (Loose/Damaged),,0
+Engine Compartment,,0
+Bad Timing Chain/Belt,,0
+Damaged or Loose Front Pipe,,0
+"Chirp- High pitched rapidly repeating sound, like birds chirping.",,0
+When I start the car.,Car is not starting,0.943974471750816
+Loose or Worn Drive Belt,,0
+When the engine is running,Engine is running louder than normal,0.816006555032322
+Loose or Worn Drive Belt,,0
+When stopping,,0
+Brake Pad Wear Indicator is Contacting Rotor,,0
+Brake Pad Quality and Rotor Finish,,0
+Worn Brake Pads,Brake pads are wearing out quickly,0.8968142231129685
+When I accelerate,,0
+Engine Compartment,,0
+Loose or Worn Drive Belt,,0
+From the font wheels,,0
+Wheel Bearing Failure,,0
+I'm not sure,,0
+Loose or Worn Drive Belt,,0
+Wheel Bearing Failure,,0
+Under the vehicle,,0
+Worn Clutch Disc Surface,,0
+Worn or Damaged Universal Joints,,0
+Clunk- A random thumping sound,,0
+When turning,,0
+When turning,,0
+When going over bumps,,0
+Front,,0
+Loose or Worn Front End Component,,0
+Worn Struts,,0
+Rear,,0
+Worn Out Shocks/Struts,,0
+Loose or Worn Suspension Parts,,0
+When putting the vehicle into gear,,0
+Worn Engine Mounts,,0
+Worn or Damaged Universal Joints,,0
+Axle Assembly Failure,,0
+"See - I see it (i.e. oil leak, warning light, or smoke)",,0
+Smoke,,0
+Engine Compartment,,0
+Coolant Leak (smoke),Coolant is leaking,0.8279704291977116
+Exhaust,Smoke from engine or exhaust,0.8244998932882031
+Black,,0
+Rich Fuel Mixture,,0
+White,,0
+Intake Manifold Gasket Leak,,0
+Blown Head Gasket,,0
+Blue,,0
+Worn Valve Stem Seals,,0
+Puddle or leak,,0
+Engine Oil- Brown to blackish in color,,0
+Leaking Oil Pan Gasket,,0
+Leaking Valve Covers,Valve cover gasket is leaking,0.8827171139053245
+Leaking Oil Filter,,0
+Automatic transmission fluid- Red-pinkish to redish-brown in color,,0
+Transmission Lines leaking,Transmission fluid is leaking,0.8371576198823404
+Transmission Pan Gasket Leaking,,0
+Power steering fluid- Red or pinkish to light brown in color,,0
+Power Steering Hose Leak,Power steering fluid is leaking,0.8622486547149721
+"Coolant- Has a watery consistancy, can be green or orange in color; depending on the vehicle.",,0
+Water Pump Leak,,0
+Radiator and Cap Leak,,0
+Upper or Lower Radiator Hose Leak,,0
+Tire looks flat,,0
+Punctured Tire,,0
+Damaged Valve Stem,,0
+Warning light is on,Warning Light is on,1.0000000000000002
+Check Engine Light,Check Engine Light is on,0.9999999999999998
+Check Engine Light (Fault Codes),Check Engine Light is on,0.8515203629367442
+Tire Pressure Light (TPMS),,0
+Incorrect Tire Pressure,,0
+Temperature Warning Light,Temperature Warning Light is on,1.0
+Stuck Thermostat,,0
+Battery Charge Warning light,Battery Light is on,0.8697143913380442
+Serpentine belt slipping/damaged,,0
+Oil Pressure Warnign Light,Oil Pressure Light is on,1.0
+Worn oil pump,,0
+Brake Warning Light,Brake Warning Light is on,1.0000000000000002
+Check Engine Light,Check Engine Light is on,0.9999999999999998
+ABS Warning Light,ABS Light is on,0.868029437508337
+ABS System Fault,,0
+"Check Engine Light on with code P0382 or, P0400-P0408",Check Engine Light is on,0.9244056925413614
+Check Engine Light On (EGR Valve),Check Engine Light is on,0.8190587962412139
+"Smell - I smell it (i.e. gasoline, rotten eggs, or burning oil)",Smell of oil in car,0.8075687961464215
+Gasoline,,0
+All the time,,0
+Engine Compartment,,0
+Fuel Injector Leak,,0
+Fuel Rail/Fuel Pressure Regulator Leak,,0
+Rear of the Vehicle,,0
+Fuel Filter Leak,,0
+Fuel Tank Leak,Fuel is leaking from gas tank,0.9319663626317836
+Fuel Pump Assembly Failure,,0
+"Only when engine is running, idling.",,0
+Inside the vehicle when the heat or A/C is turned on.,,0
+Fuel Injector Leak,,0
+Fuel Rail/Fuel Pressure Regulator Leak,,0
+Only outside the vehicle.,,0
+Fuel Filter Leak,,0
+Fuel Tank Leak,Fuel is leaking from gas tank,0.9319663626317836
+Fuel Pump Assembly Failure,,0
+Rotten eggs,,0
+Catalytic Converter Failure,,0
+Rich Fuel Condition,,0
+Mildew,,0
+A/C vents (Foul Smell),,0
+Antifreeze (sweet smell),,0
+When the heater is on,,0
+Leaking heater core,,0
+After the vehicle is warmed up,,0
+Coolant Leak (smoke),Coolant is leaking,0.8279704291977116
+Burning oil,,0
+Engine Oil Leak (Odor),,0
+Exhaust smell,Exhaust fume odor in car,0.8240153879897284
+Inside the vehicle,,0
+Exhaust Manifold Gasket Leak,,0
+Exhaust Leak (Front Pipe),,0
+Outside the vehicle,,0
+Exhaust System Leak,Exhaust System Inspection,0.8193846631032438
+Ugh! - It won't start,,0
+The engine cranks normally but does not start,,0
+No Fuel Pressure,,0
+Bad Timing Chain/Belt,,0
+No Spark,,0
+The engine cranks over slowly,,0
+Weak Battery,,0
+Corroded Battery Terminals,,0
+Bad Starter,,0
+The vehicle is backfiring when trying to start,,0
+Bad Ignition Component,,0
+Bad Timing Chain/Belt,,0
+Nothing,,0
+Dead Battery,Battery is dead,1.0000000000000002
+Corroded Battery Terminals,,0
+Bad Starter,,0
+Faulty Ignition Switch,,0
+One strong click or knock,,0
+Bad Starter,,0
+Seized Engine,,0
+"A spinning, whinning, or gear grinding sound",,0
+Bad Starter,,0
+"Repeating clicking sound: ""click, click, click""",,0
+Weak Battery,,0
+Corroded Battery Terminals,,0
+Bad Starter,,0
+Brakes,,0
+My brakes are grinding.,,0
+Worn Front Brakes,,0
+Worn Rear Brakes,,0
+My brakes are squealing.,Squealing noise from brakes,0.905212936904724
+Brake Pad Wear Indicator is Contacting Rotor,,0
+Brake Pad Quality and Rotor Finish,,0
+Worn Brake Pads,Brake pads are wearing out quickly,0.8968142231129685
+My brakes pull.,,0
+Contaminated Brake Linings,,0
+Uneven Tire Pressure,Brake pressure is uneven,0.8476320501615535
+Binding Brake Caliper,,0
+Loose or Worn Suspension Parts,,0
+I have a hard brake pedal.,Brake Pedal is hard to push,0.9612677134602617
+Brake Booster Failure,,0
+Vacuum leaks,,0
+I have a spongy or low brake pedal.,Brake pedal is spongy,0.9330501591287125
+Air in Brake Hydraulic System,,0
+Brake Master Cylinder Internal Leak.,,0
+Brakes not Adjusted,,0
+I have a pulsating brake pedal.,Brake pedal is pulsating,1.0
+Warped Brake Rotors,,0
+Out-of-Round Brake Drums,,0
+Loose or Worn Wheel Bearing,,0
+My brake warning light is on.,Brake Warning Light is on,1.0000000000000002
+Low Brake Fluid,Brake fluid is leaking,0.8336724511758753
+Parking Brake Lever Engaged,Parking brake is stuck,0.8148995368410122
+Faulty Parking Brake Switch,Parking brake is stuck,0.826140428150073
+My ABS light is on.,ABS Light is on,1.0
+ABS System Fault,,0
+Check Engine & Warning Lights,Check Engine Light is on,0.8609917078615185
+Check Engine Light,Check Engine Light is on,0.9999999999999998
+Check Engine Light (Fault Codes),Check Engine Light is on,0.8515203629367442
+Tire Pressure Light (TPMS),,0
+Incorrect Tire Pressure,,0
+Temperature Warning Light,Temperature Warning Light is on,1.0
+Stuck Thermostat,,0
+Battery Charge Warning Light,Battery Light is on,0.8697143913380442
+Faulty Alternator,,0
+Serpentine belt slipping/damaged,,0
+Oil Pressure Warning Light,Oil Pressure Light is on,0.9511200273825711
+Low Engine Oil,Oil level is low,0.8260319073464799
+Faulty oil pressure sensor,,0
+Worn oil pump,,0
+Brake Warning Light,Brake Warning Light is on,1.0000000000000002
+Faulty Parking Brake Switch,Parking brake is stuck,0.826140428150073
+ABS Warning Light,ABS Light is on,0.868029437508337
+ABS System Fault,,0
+"Check Engine Light on with code P0382 or, P0400-P0408",Check Engine Light is on,0.9244056925413614
+Check Engine Light On (EGR Valve),Check Engine Light is on,0.8190587962412139
+Electrical Accessories,,0
+Power Windows,Windows,0.8200218590477573
+One window is not going up or down,Window is not going up or down,0.9417972542952747
+Yes,,0
+Faulty Window Motor,,0
+Faulty Window Regulator,,0
+No,,0
+Faulty Window Motor,,0
+Bad Power Window Switch,Window Switch is not working,0.824685549667779
+Multiple windows are not going up or down,,0
+All of the power windows are not going up or down,,0
+Bad Power Window Master Switch,,0
+Blown Fuse,,0
+The two rear windows are not going up or down,,0
+Bad Power Window Master Switch,,0
+Blown Fuse,,0
+The windows are working from their individual switch but not the master switch or vice versa,,0
+Bad Power Window Master Switch,,0
+The window is moving up and down at an angle,,0
+Faulty Window Regulator,,0
+The window is moving up and down very slowly,Window is moving up or down very slowly,0.9999999999999998
+Faulty Window Motor,,0
+Faulty Window Regulator,,0
+Power Mirrors,,0
+One or both power mirrors are not moving or are making a clicking sound when moving.,,0
+Malfunctioning Power Mirror,,0
+Both power mirrors are not moving,Power Mirror is not working,0.8204304397143347
+Blown Fuse,,0
+Wipers,Wipers are not working,0.8118766249513341
+Yes,,0
+Yes,,0
+Bad Windshield Wipers,,0
+No,,0
+Wipers are only working on certain speeds or not working on intermittent,Wipers are not working,0.8049690368540509
+Bad Windshield Wiper Switch,,0
+Bad Windshield Wiper Motor,,0
+When turning the wipers off they come to rest in the wrong position,,0
+Bad Windshield Wiper Motor,,0
+No,,0
+Yes,,0
+Bad Windshield Wiper Motor,,0
+No,,0
+Bad Windshield Wiper Switch,,0
+Blown Fuse,,0
+Bad Windshield Wiper Motor,,0
+Engine,Engine is sputtering,0.8485475135842534
+Overheating,,0
+Low Coolant Level,,0
+Faulty Engine Cooling Fan,,0
+Stuck Thermostat,,0
+Vehicle runs hot,,0
+Faulty Engine Cooling Fan,,0
+Broken/Missing Fan Shroud Assembly,,0
+Engine vibration,Noise from engine or exhaust,0.8338024139619123
+Worn Engine Mounts,,0
+Engine Vibration (Harmonic Balancer),,0
+"Engine missfiring, or loss of power",Loss of power,0.8740835554345128
+Bad Ignition Component,,0
+Worn Distributor,,0
+Engine Performance,,0
+Hesitation,,0
+Faulty fuel filter,,0
+Clogged Air Filter,Air filter is clogged,1.0000000000000002
+Check Engine Light,Check Engine Light is on,0.9999999999999998
+High Idle,,0
+Vacuum leaks,,0
+Faulty fuel filter,,0
+Check Engine Light,Check Engine Light is on,0.9999999999999998
+Idle fluctuates,,0
+Clogged Air Filter,Air filter is clogged,1.0000000000000002
+Check Engine Light,Check Engine Light is on,0.9999999999999998
+Check Ignition Coil for Spark,,0
+Rough running engine,,0
+Check Engine Light,Check Engine Light is on,0.9999999999999998
+Check Ignition Coil for Spark,,0
+Fuel system cleaning,,0
+Stalling,,0
+Check Engine Light,Check Engine Light is on,0.9999999999999998
+Check Ignition Coil for Spark,,0
+Fuel pump replacement,,0
+Ignition misfire,,0
+Faulty Coil Over Plug,,0
+Engine Tune-up,Engine is sputtering,0.8485475135842534
+Fouled Spark Plug,,0
+Idle drops and almost dies,,0
+Check Engine Light On (Idle Control Valve),Check Engine Light is on,0.8725125990680067
+Carburetor engine stalling and running rough at low RPM,,0
+Bad Carburetor,,0
+Rough idle,Car idle is rough,0.8348904470293602
+Rough Idle (Throttle Body),,0
+Exterior Body,,0
+Front,,0
+"Fascia (Front cover) (also includes absorber, reinforcement, License bracket,side supports, sensors, valance, spoiler)",,0
+Front bumper,,0
+Cover type,,0
+Damaged Bumper Cover,,0
+Face bar type,,0
+Damaged Front Bumper,,0
+Energy Absorber,,0
+Damaged energy absorber,,0
+Reinforcement,,0
+Damaged bumper reinforcement,,0
+License plate brackets,,0
+Metal,,0
+Damaged metal license plate bracket,,0
+Plastic,,0
+Damaged plastic license plate bracket,,0
+Bumper Braket or Side supports,,0
+Damaged Bumper Bracket/Side Support,,0
+Valance,,0
+Repair Valance,,0
+Replace valance,,0
+Spoiler,,0
+Damaged Grille,,0
+Front end cover,,0
+Damaged Front End Cover,,0
+Bumper trim,,0
+Damaged Bumper Trim,,0
+"Front Lamps (includes; Headlamps, signal lamps, fog lamps, etc.)",,0
+Headlight Assembly,,0
+Damaged Headlight Assembly,,0
+Grille,,0
+Grille,,0
+Damaged Grille,,0
+Grille insert,,0
+Damaged Grille Insert,,0
+"Radiator support ( includes; core support, tie bars, splash shields)",,0
+Radiator support,,0
+Replace radiator support,,0
+Cooling Fan Shroud,,0
+Damaged Fan Shroud,,0
+Header panel,,0
+Damaged Header Panel,,0
+"Hood (includes; lock, supports, hinges, insulator)",,0
+Hood,,0
+Repair hood,,0
+Replace hood,,0
+Insulator,,0
+Damaged hood insulator,,0
+Lock assembly,,0
+Damaged Hood lock assembly,,0
+Hinge,,0
+Damaged hinge,,0
+Metal Front Bumper,,0
+Damaged Front Bumper,,0
+Emblem,,0
+Damaged emblem,,0
+Rear,,0
+"Rear bumper cover (also includes absorber, reinforcement, License bracket, side supports, reverse sensors, backup camera)",,0
+Bumper,,0
+Damaged rear bumper cover,,0
+Energy Absorber,,0
+Damaged energy absorber,,0
+Reinforcement,,0
+Damaged bumper reinforcement,,0
+Rear step bumper,,0
+Damaged rear step bumper,,0
+Rear body panel,,0
+Damaged Rear Body Panel,,0
+Trunk will not stay open by itself,Trunk does not lock or open,0.8319632126490094
+Worn Trunk Struts,,0
+Spoiler,,0
+Damaged Spoiler,,0
+Tailgate,,0
+Damaged Tailgate,,0
+Rear Fender,,0
+Damaged Rear Fender,,0
+Tail Light Assembly,,0
+Damaged Tail Light Assembly,,0
+Right Side (Passenger),,0
+Fender,,0
+Fender Liner,,0
+Damaged Fender Liner,,0
+Mud Guard/Protector,,0
+Damaged Mud Guard/Protector,,0
+Antenna Mast,,0
+Damaged Antenna Mast,,0
+Fender Trim,,0
+Damaged Fender Trim,,0
+Fender,,0
+Damaged Front Fender,,0
+Front Door,Window fell inside the door,0.8007990920661493
+Door Shell,,0
+Damaged Door Shell,,0
+Mirror,,0
+Damaged Mirror Glass,,0
+Window Belt Strip,,0
+Damaged Window Belt Strip,,0
+Window Run Channel,,0
+Damaged Run Channel,,0
+Body Side Molding,,0
+Damaged Body Side Molding,,0
+Rear Door,,0
+Door Shell,,0
+Damaged Door Shell,,0
+Window Belt Strip,,0
+Damaged Window Belt Strip,,0
+Window Run Channel,,0
+Damaged Run Channel,,0
+Body Side Molding,,0
+Damaged Body Side Molding,,0
+Left Side (Drivers),,0
+Fender,,0
+Fender Liner,,0
+Damaged Fender Liner,,0
+Mud Guard/Protector,,0
+Damaged Mud Guard/Protector,,0
+Antenna Mast,,0
+Damaged Antenna Mast,,0
+Fender Trim,,0
+Damaged Fender Trim,,0
+Fender,,0
+Damaged Front Fender,,0
+Front Door,Window fell inside the door,0.8007990920661493
+Door Shell,,0
+Damaged Door Shell,,0
+Mirror,,0
+Damaged Mirror Glass,,0
+Window Belt Strip,,0
+Damaged Window Belt Strip,,0
+Window Run Channel,,0
+Damaged Run Channel,,0
+Body Side Molding,,0
+Damaged Body Side Molding,,0
+Rear Door,,0
+Door Shell,,0
+Damaged Door Shell,,0
+Window Belt Strip,,0
+Damaged Window Belt Strip,,0
+Window Run Channel,,0
+Damaged Run Channel,,0
+Body Side Molding,,0
+Damaged Body Side Molding,,0
+Soft top damaged,,0
+Damaged Soft Top,,0
+Heating & Air Conditioning,Car surges when air conditioning is on,0.813325365570378
+No cold air when A/C is on,,0
+No Cold Air A/C Compressor,,0
+No Cold Air A/C Line or Hose,,0
+No Cold Air A/C Condenser,,0
+No hot air when heat is on,,0
+Bad Heater Control Valve,,0
+Clogged Heater Core,,0
+Bad Thermostat,,0
+No air out of the vents when I turn on the a/c or heat,Air is not coming out of vents,0.8864332777840004
+Windshield fogs up with the defroster setting on,Windshield fogs up,0.8352898927461265
+Leaking heater core,,0
+Rear defroster is not working,Defroster is not working,0.8546402906008098
+Blown Fuse,,0
+Link Defroster grid,,0
+"The fan speeds are not working properly e.g., High works but the other speeds do not.",,0
+Blower Resistor Malfunction,,0
+Lights,Lights (Headlamps/beams/brakes),1.0
+Headlights,Headlights are dim,0.8376254978589145
+Both headlights are out,Headlights are dim,0.8376254978589145
+Both high beams are out,High beam is not working,0.8035298416140912
+The headlights are not pointing in the correct direction,,0
+Headlight Out of Adjustment,,0
+One headlight is out,,0
+Bad Headlight Bulb,,0
+One high beam is out,High beam is not working,0.9146289952820554
+Bad High Beam Bulb,Headlights do not change from low to high beam,0.8010025967284904
+Turn signals,Turn signal light is not working,0.8294602508640383
+"Turn signal, is out or is flashing faster than normal",,0
+Turn Signal Bulb Out,Turn signal light is not working,0.8009314607065419
+None of the turn signals are working,Turn signal light is not working,0.8771244777406009
+Blown Fuse,,0
+Turn Signal Bulb Out,Turn signal light is not working,0.8009314607065419
+Turn Signal Switch Bad,Turn signal light is not working,0.8222038974553929
+Tail light,,0
+One tail light is out,,0
+Tail Light Bulb (Burned Out),,0
+All the tail lights are out,Lights (Headlamps/beams/brakes),0.8069195467396315
+Blown Fuse,,0
+Burnt out Tail Light Bulbs,,0
+Brake lights,Brake Warning Light is on,0.8063425259931976
+Yes,,0
+Blown Fuse,,0
+Bad Brake Light Switch,Brake light is not working,0.850454597330986
+Bad Brake Light Bulbs,Brake light is not working,0.8223576018765971
+No,,0
+Brake Light Bulb (Burned Out),,0
+Damaged Light Assembly,,0
+Headlight Assembly,,0
+Damaged Headlight Assembly,,0
+Headlight Door,,0
+Damaged Headlight Door,,0
+Headlight Cover,,0
+Damaged Headlight Cover,,0
+Turn Signal Assembly,,0
+Damaged Turn Signal Lens Assembly,,0
+Fog Light,,0
+Damaged Fog Light Assembly,,0
+Parking Light Assembly,,0
+Damaged Parking Light Assembly,,0
+Side Marker Light,,0
+Damaged Side Marker Light Assembly,,0
+Cornering Light,,0
+Damaged Cornering Light,,0
+Tail Light Assembly,,0
+Damaged Tail Light Assembly,,0
+Steering & Handling,,0
+My steering wheel shakes,Steering wheel vibrates or shakes,0.9282812711374622
+Loose or Worn Front End Component,,0
+Tires/Wheels Out of Balance or Damaged.,,0
+Worn Wheel Hub Assembly,,0
+My steering wheel is hard to turn,Steering wheel is hard to turn,1.0000000000000002
+Faulty power steering pump,Power steering fluid is leaking,0.8125860730560469
+Power Steering Drive Belt (Damage/Loose),Steering wheel is hard to turn,0.8100950706919294
+Low Power Steering Fluid,Power steering fluid is leaking,0.8768602417274963
+My vehicle drifts,,0
+Loose or Worn Front End Component,,0
+Uneven Tire Pressure,Brake pressure is uneven,0.8476320501615535
+Wheels out of Alignment,,0
+My vehicle pulls,,0
+Loose or Worn Front End Component,,0
+Unequal Front Tire Pressure,,0
+Dragging Front Brake,,0
+Wheels out of Alignment,,0
+My vehicle bounces excessively over bumps,,0
+Worn Struts,,0
+Worn Shocks Absorbers,,0
+My vehicle bottoms out over bumps,,0
+Worn Struts,,0
+Worn Shocks Absorbers,,0
+Worn leaf springs,,0
+Worn coil springs,,0
+I hear a squealing sound when turning the wheel,Squealing noise when steering wheel is turned,0.8363878726031895
+Faulty power steering pump,Power steering fluid is leaking,0.8125860730560469
+Power Steering Drive Belt (Damage/Loose),Steering wheel is hard to turn,0.8100950706919294
+Low Power Steering Fluid,Power steering fluid is leaking,0.8768602417274963
+I hear a clunking sound when turning,,0
+Loose/Worn Tie Rod Ends,,0
+"Worn or ""dry"" ball joint",,0
+Axle Assembly Failure,,0
+Tires & Wheels,,0
+Wheels,,0
+Wheel feels loose or wobbles while driving,Steering wheel feels loose,0.8527132078720041
+Loose or Worn Front End Component,,0
+Wheel Lug Nuts (Loose),,0
+Wheel Bearing Failure,,0
+"Cracked, bent or damaged wheel",,0
+"Cracked, Bent or Damaged Wheel",,0
+Tires,,0
+Tires screech when turning at low speeds,,0
+Unequal Front Tire Pressure,,0
+Wheels out of Alignment,,0
+Abnormal tire wear,,0
+Front tires are wearing on the inside edge,,0
+Low Tire Pressure,,0
+Lack of Tire Rotation,,0
+Negative Camber,,0
+Front tires are wearing on the outside edge,,0
+Unequal Front Tire Pressure,,0
+Wheels out of Alignment,,0
+Tires wearing on both edges,,0
+Low Tire Pressure,,0
+Lack of Tire Rotation,,0
+"Flat spots, cupping or various wear all over tire",,0
+High/Low Tire Pressure,,0
+Worn Out Shocks/Struts,,0
+Wheels Out of Balance,,0
+Tires wearing in the middle,,0
+Over-Inflated Tires,,0
+Lack of Tire Rotation,,0
+Feathered,,0
+Wheel Aligment (Toe),,0
+Worn Tie Rods,,0
+Tire looks flat,,0
+Punctured Tire,,0
+Damaged Valve Stem,,0
+Transmission,,0
+Manual Transmission,,0
+When the transmission is engaged (when the vehicle is in gear),,0
+Transmission makes noise,,0
+Internal Transmission Failure (Bearings/Gears),,0
+ATF Fluid Inspection,,0
+Gears clash or grind when shifting,,0
+Clutch Linkage Misaligned,,0
+Low Lubricant Level,Oil level is low,0.8250435160266649
+Transmission jumps out of gear,,0
+Worn/Bent Shift Linkage,,0
+Bent Shift Fork,,0
+Manual Transmission Failure (Worn Synchronizer Teeth),,0
+Transmission locked in gear,,0
+Worn/Bent Shift Linkage,,0
+Bent Shift Fork,,0
+Lubricant leaking,,0
+Over-filled Lubricant Level,,0
+Damaged Shifter Seals,,0
+Gasket Leak,Valve cover gasket is leaking,0.8212139496364956
+When the transmission is disengaged (when the vehicle is not in gear),,0
+Transmission hard to shift,,0
+Low Lubricant Level,Oil level is low,0.8250435160266649
+Worn/Bent Shift Linkage,,0
+Bent Shift Fork,,0
+Abnormal transmission noise,,0
+Worn Pilot Bearing,,0
+Low Lubricant Level,Oil level is low,0.8250435160266649
+Contaminated lubricant,,0
+Lubricant leaking,,0
+Over-filled Lubricant Level,,0
+Damaged Shifter Seals,,0
+Gasket Leak,Valve cover gasket is leaking,0.8212139496364956
+Clutch area,,0
+The clutch pedal chatters (grabbing feeling),,0
+Burned/Glazed Clutch Disc,,0
+Warped Pressure Plate/Flywheel,,0
+Worn Engine Mounts,,0
+Hard clutch pedal effort,Brake Pedal is hard to push,0.8672322090846112
+Manual Transmission Clutch Inspect (Over-center Spring),,0
+Manual Transmission Clutch Pedal (Excessive Friction),,0
+No pedal return (clutch pedal stays on floor after depressed),Clutch pedal goes all the way to the floor,0.8584945199824282
+Binding In the Clutch Linkage,,0
+Worn Clutch Pressure Plate Springs,,0
+The clutch will not disengage,,0
+Warped Clutch Disc,,0
+Clutch slips,,0
+Clutch Pedal Free Play,,0
+Worn Clutch Disc Surface,,0
+Worn Clutch Pressure Plate Springs,,0
+Pulsating clutch pedal,Brake pedal is pulsating,0.8839309446550881
+Warped Flywheel,,0
+Abnormal clutch noise,,0
+Worn Release Bearing (Noise),,0
+Worn Pilot Bearing,,0
+Rusted Clutch Linkage,,0
+Automatic transmission,,0
+Harsh shifts (car jerks when it upshifts),,0
+Improper Transmission Fluid Level,,0
+Contaminated Transmission Fluid Filter,Transmission fluid is leaking,0.8245122722675355
+Harsh engagement (Car jerks when shifted into gear),,0
+High Engine Idle,Engine idle speed is high,0.9486635158775353
+Automatic Transmission Fault (High Hydraulic Pressure),,0
+Automatic Transmission Fault (Valve Body Fluid Leak),Transmission fluid is leaking,0.8249011168387449
+There is a growling or grinding noise,Grinding noise while shifting,0.8246062187530055
+Improper Transmission Fluid Level,,0
+Automatic Transmission Fault (Torque Converter),,0
+Internal Automatic Transmission Fault (Worn Planetary Gears),,0
+Transmission has a hard upshift,,0
+Misadjusted Throttle Valve Linkage.,,0
+Improper Transmission Fluid Level,,0
+Automatic Transmission Fault (Vacuum Modulator),,0
+Transmission slips between shifts (engine revs),,0
+Automatic Transmission Fault (Valve Body Fluid Leak),Transmission fluid is leaking,0.8249011168387449
+Improper Transmission Fluid Level,,0
+Automatic Transmission Fault (Hydraulic Pump),,0
+Transmission will not downshift while passing,,0
+Misadjusted Throttle Valve Linkage,,0
+Automatic Transmission Fault (High Hydraulic Pressure),,0
+There is a clunking noise when the transmission is shifting gears,,0
+Worn Transmission Mount,,0
+Delayed engagement (Car does not respond immediately when shifted into gear),,0
+Improper Transmission Fluid Level,,0
+Contaminated Transmission Fluid Filter,Transmission fluid is leaking,0.8245122722675355
+4 wheel drive,,0
+Driveshaft problem,,0
+Bent Driveshaft (runout),,0
+Driveshaft (Loss of Balance),,0
+Transfer case noise,,0
+Whining,,0
+Low Trasfer Case Fluid,Transfer case fluid is low,0.9374160088235511
+Internal gears worn,,0
+Grinding noise,Grinding noise while shifting,0.9163245570981998
+Low Trasfer Case Fluid,Transfer case fluid is low,0.9374160088235511
+Transfer Case (Chain Contact),,0
+Clunking or popping noise,Clunking or knocking noise from wheels,0.8232891110937337
+Internal Transfer Case (Damage),,0
+Leaking oil,Oil is leaking into spark plug well,0.8258973977048819
+Rear output seal,,0
+Worn Rear Transfer Case Output Seal,,0
+Input seal,,0
+Worn Transfer Case Input Seal,,0
+Transfer case malfunction,,0
+Will not engage front wheels,,0
+Faulty Front Wheel Locking Hubs,,0
+Internal Trasnfer Case Failure,,0
+Will not shift out of gear,,0
+Transfer Case Linkage (Mis-Alignment),,0
+All wheel drive,Steering wheel does not turn car,0.844589222270268
+Making noise,Car is making a noise,0.8812077452924437
+Whining,,0
+Low Trasfer Case Fluid,Transfer case fluid is low,0.9374160088235511
+Internal Trasnfer Case Failure,,0
+Popping,,0
+Internal Trasnfer Case Failure,,0
+Grinding,,0
+Internal Trasnfer Case Failure,,0
+Not working,,0
+Low Trasfer Case Fluid,Transfer case fluid is low,0.9374160088235511
+Internal Trasnfer Case Failure,,0
+Upholstery & Interior,,0
+Damaged dashboard,,0
+Damaged Dashboard,,0
+Damaged carpet,,0
+Interior Floor Carpet (Damage),,0
+Power outlet does not work,Power Outlet is not working,0.9653332584789419
+Blown Fuse,,0
+Power seats not working,Power Seat is not working,0.9197810834928662
+Bad power seat motor,Power Seat is not working,0.8186859309690093
+Power Seat Switch Failure,Power Seat is not working,0.8430331768399567
+Blown Fuse,,0
+Rear defroster is not working,Defroster is not working,0.8546402906008098
+Blown Fuse,,0
+Link Defroster grid,,0
+Seat belt not reatracting properly,Seat Belt is not working,0.8857884898264308
+Seat Belt Malfunction,,0
+Seat belt not locking,Seat Belt is not working,0.8417436773015481
+Seat Belt Malfunction,,0

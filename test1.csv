@@ -1,0 +1,862 @@
+amd,ym,similarity
+Uneven Tire Pressure,Brake pressure is uneven,0.9458414179435355
+"Excessive play- Looseness, lack of response in the steering wheel.",Brake pressure is uneven,0.855879914180929
+"Excessive play- Looseness, lack of response in the steering wheel.",Car has excessive body roll,0.8514110522252218
+Power Steering Rack (Internal Wear),Traction Control Light is on,0.8541570302710816
+Power Steering Rack (Internal Wear),Steering wheel does not respond properly,0.8686862512759869
+Power Steering Rack (Internal Wear),"Brakes, Steering and Suspension System",0.861399983101379
+Power Steering Rack (Internal Wear),Brake light is not working,0.8724010522979054
+Power Steering Rack (Internal Wear),Steering wheel feels loose,0.85893695323657
+Power Steering Rack (Internal Wear),Power steering fluid is brown or black,0.8741848887907406
+Power Steering Rack (Internal Wear),Steering wheel is hard to turn,0.8984338034905412
+Power Steering Rack (Internal Wear),Power door locks are not working,0.8628215853953421
+Pulls- Sharp movement to one side.,Car is leaning to one side,0.8934371150687102
+Loose or Worn Front End Component,One tire is wearing faster than the others,0.852677282345313
+Unequal Front Tire Pressure,Brake pressure is uneven,0.855381832888396
+Unequal Front Tire Pressure,Steering wheel is hard to turn,0.8574656076297081
+Dragging Front Brake,Car shuts off when stepping on gas pedal,0.851435082814236
+Dragging Front Brake,Brake Pedal is hard to push,0.877426443169495
+Dragging Front Brake,Car pulls to left or right when I brake,0.9162562310812341
+Dragging Front Brake,Car or steering wheel shakes when braking,0.8679589395734102
+Dragging Front Brake,Steering wheel does not turn car,0.8857910726928889
+Dragging Front Brake,Brake rotors are turning blue,0.881817857794035
+Dragging Front Brake,Parking brake is stuck,0.8598576225315074
+Dragging Front Brake,Creaking noise when turning the steering wheel,0.8735573825218832
+Dragging Front Brake,Squealing noise when steering wheel is turned,0.8653719136614375
+Dragging Front Brake,Steering wheel feels loose,0.8754946294376231
+Dragging Front Brake,Steering wheel is hard to turn,0.8825076455845209
+Pulsation- Fluctuation of the brake pedal when the brakes are applied.,Brake Pedal is hard to push,0.8705145883253811
+Pulsation- Fluctuation of the brake pedal when the brakes are applied.,Brake pedal is lower than usual,0.9321376894072293
+Pulsation- Fluctuation of the brake pedal when the brakes are applied.,Brake pedal is pulsating,0.8973527071414642
+Pulsation- Fluctuation of the brake pedal when the brakes are applied.,Brake pressure is uneven,0.8674430947828825
+Pulsation- Fluctuation of the brake pedal when the brakes are applied.,Grinding noise when braking,0.8598525576775781
+Pulsation- Fluctuation of the brake pedal when the brakes are applied.,Brake pedal is spongy,0.8731931402032402
+Pulsation- Fluctuation of the brake pedal when the brakes are applied.,Hissing noise when brake pedal is depressed,0.8698563764921818
+Pulsation- Fluctuation of the brake pedal when the brakes are applied.,Brake fluid is leaking around clutch pedal,0.8560223128787139
+Warped Brake Rotors,Brake pedal is pulsating,0.8533876036754348
+Loose or Worn Wheel Bearing,Brake pads are wearing out quickly,0.857564462006792
+Shimmy- Rapid side to side movement of the front wheels.,Steering wheel is hard to turn,0.8616580146591919
+Shimmy- Rapid side to side movement of the front wheels.,Car is leaning to one side,0.8991358300325959
+Loose or Worn Front End Component,One tire is wearing faster than the others,0.852677282345313
+Loose or Worn Wheel Bearing,Brake pads are wearing out quickly,0.857564462006792
+Vibration- Vehicle shakes. Ususally felt in the steering wheel or the seat.,Steering wheel vibrates or shakes,0.8508088520343575
+Vibration- Vehicle shakes. Ususally felt in the steering wheel or the seat.,Steering wheel does not respond properly,0.8672900746830418
+Vibration- Vehicle shakes. Ususally felt in the steering wheel or the seat.,Car pulls to left or right when I brake,0.8867146956218931
+Vibration- Vehicle shakes. Ususally felt in the steering wheel or the seat.,Car or steering wheel shakes when braking,0.9294699938501773
+Vibration- Vehicle shakes. Ususally felt in the steering wheel or the seat.,Steering wheel does not turn car,0.9317701953022473
+Vibration- Vehicle shakes. Ususally felt in the steering wheel or the seat.,Loud noise is coming from rear brakes,0.8520641469803383
+Vibration- Vehicle shakes. Ususally felt in the steering wheel or the seat.,Parking brake is stuck,0.8556159641252546
+Vibration- Vehicle shakes. Ususally felt in the steering wheel or the seat.,Creaking noise when turning the steering wheel,0.8974493979744496
+Vibration- Vehicle shakes. Ususally felt in the steering wheel or the seat.,Squealing noise when steering wheel is turned,0.8991148285759034
+Vibration- Vehicle shakes. Ususally felt in the steering wheel or the seat.,Steering wheel feels loose,0.9123685078850722
+Vibration- Vehicle shakes. Ususally felt in the steering wheel or the seat.,Steering wheel is hard to turn,0.9100162943026486
+When braking,Grinding noise when braking,0.8785710203995378
+Through the steering wheel,Steering wheel vibrates or shakes,0.8638136479428498
+Through the steering wheel,Car or steering wheel shakes when braking,0.9251462975667327
+Through the steering wheel,"Brakes, Steering and Suspension System",0.8762931299377672
+Through the steering wheel,Steering wheel does not turn car,0.9242986413431945
+Through the steering wheel,Creaking noise when turning the steering wheel,0.9054415504658374
+Through the steering wheel,Squealing noise when steering wheel is turned,0.8635097116256086
+Through the steering wheel,Steering wheel feels loose,0.9049007343401398
+Through the steering wheel,Steering wheel is hard to turn,0.8903912792287236
+Warped Brake Rotors,Brake pedal is pulsating,0.8533876036754348
+Loose or Worn Front End Component,One tire is wearing faster than the others,0.852677282345313
+Warped Brake Rotors,Brake pedal is pulsating,0.8533876036754348
+When accelerating from a stop,Car is slow to accelerate,0.8662710726954653
+Loose or Worn Front End Component,One tire is wearing faster than the others,0.852677282345313
+Constantly when traveling at higher speeds,Car jerks forward at high speeds,0.8615896683539506
+Constantly when traveling at higher speeds,Car won't exceed a low speed or shift up,0.87786513354123
+Front Wheels Out of Balance (Wheel Weight Fell Off),Car pulls to left or right when I brake,0.8647028976759006
+Front Wheels Out of Balance (Wheel Weight Fell Off),Steering wheel does not turn car,0.90487039349197
+Front Wheels Out of Balance (Wheel Weight Fell Off),Car is hard to shift,0.8517713335342725
+Front Wheels Out of Balance (Wheel Weight Fell Off),Steering wheel feels loose,0.8894203258614924
+Front Wheels Out of Balance (Wheel Weight Fell Off),Steering wheel is hard to turn,0.911440185090029
+Front Wheels Out of Balance (Wheel Weight Fell Off),Car has excessive body roll,0.8767268034825143
+Front Wheels Out of Balance (Wheel Weight Fell Off),One tire is wearing faster than the others,0.8615039610906097
+Loose or Worn Front End Component,One tire is wearing faster than the others,0.852677282345313
+All the time.,Fan speed control is not working,0.8562514973600698
+All the time.,Car is taking longer than normal to stop,0.8533725250547889
+All the time.,Car is hard to start,0.8566411551128508
+Loose or Worn Drive Belt,Brake pads are wearing out quickly,0.853849891818912
+Brake Pad Wear Indicator is Contacting Rotor,Brake pads are wearing out quickly,0.8817135133018721
+Brake Pad Wear Indicator is Contacting Rotor,Brake rotors are turning blue,0.8889155110646075
+Brake Pad Quality and Rotor Finish,Brake Pedal is hard to push,0.8526452347128377
+Brake Pad Quality and Rotor Finish,Brake pedal is lower than usual,0.8558521361341325
+Brake Pad Quality and Rotor Finish,Car or steering wheel shakes when braking,0.8774007111821558
+Brake Pad Quality and Rotor Finish,"Brakes, Steering and Suspension System",0.8615662879844685
+Brake Pad Quality and Rotor Finish,Brake light is not working,0.8570534874114768
+Brake Pad Quality and Rotor Finish,Brake rotors are turning blue,0.900477077564334
+Brake Pad Quality and Rotor Finish,Brake fluid is leaking around clutch pedal,0.8575022741838784
+Brake Pad Quality and Rotor Finish,Car nose dives when braking,0.8872154675495894
+Brake Pad Quality and Rotor Finish,Steering wheel is hard to turn,0.8588896615272772
+Worn Brake Pads,Brake pads are wearing out quickly,0.9357605987591516
+Worn Brake Pads,Brake rotors are turning blue,0.8538800024820592
+Only when I start the vehicle.,Car is not starting,0.9480195528954339
+Only when I start the vehicle.,Car does not shift from park to drive,0.8942277088021369
+Only when I start the vehicle.,Car pulls in one direction,0.8864946308817143
+Only when I start the vehicle.,"When I slow down and stop the car, engine shuts off",0.8920380600705031
+Only when I start the vehicle.,Car does not move when I step on the gas pedal,0.8856030137023078
+Only when I start the vehicle.,Car stays running when I shut the key off,0.9075310862237362
+Only when I start the vehicle.,Car is making a noise,0.8838353615557573
+Only when I start the vehicle.,Car Door Lockout,0.8533277709999426
+Only when I start the vehicle.,Car is not getting enough power,0.8684878898752874
+Only when I start the vehicle.,Car is taking longer than normal to stop,0.910024910235523
+Only when I start the vehicle.,Car will not turn over,0.916618921138131
+Only when I start the vehicle.,Parking brake won't hold car,0.8857714622707653
+Only when I start the vehicle.,Car is running hotter than normal,0.855138727938665
+Only when I start the vehicle.,Car is slow to accelerate,0.9041779389838225
+Only when I start the vehicle.,Car is not shifting into park,0.8634845948686761
+Only when I start the vehicle.,Car idle is rough,0.8672842461542414
+Only when I start the vehicle.,Car is getting worse gas mileage,0.8623350651171836
+Only when I start the vehicle.,Car is hard to start,0.9234347197878294
+Only when I start the vehicle.,Car is hard to shift,0.9038447572215851
+Only when I start the vehicle.,Fuel door won't close,0.8643443004774338
+Only when I start the vehicle.,Car won't exceed a low speed or shift up,0.8681116768038398
+Loose or Worn Drive Belt,Brake pads are wearing out quickly,0.853849891818912
+Only when turning,Window is moving up or down very slowly,0.8577796438614231
+Only when turning,Car is not getting enough power,0.8750656239735666
+Only when turning,Car is taking longer than normal to stop,0.8553904417561733
+Only when turning,Car is hard to start,0.859596574297881
+Only when turning,Car is hard to shift,0.8574590337328293
+Faulty power steering pump,"Brakes, Steering and Suspension System",0.8804546222782473
+Faulty power steering pump,Power steering fluid is leaking,0.9174585980473525
+Faulty power steering pump,Brake System Inspection,0.8522329677136689
+Faulty power steering pump,Creaking noise when turning the steering wheel,0.8545563427797194
+Faulty power steering pump,Brake fluid is leaking around clutch pedal,0.8556091225614892
+Power Steering Drive Belt (Damage/Loose),Traction Control Light is on,0.8790273889876742
+Power Steering Drive Belt (Damage/Loose),Ignition key does not turn,0.8559049612939219
+Power Steering Drive Belt (Damage/Loose),Ignition key is stuck and does not turn,0.8651588964277679
+Power Steering Drive Belt (Damage/Loose),Power Seat is not working,0.85961640590348
+Power Steering Drive Belt (Damage/Loose),Seat Belt is not working,0.864341780586269
+Power Steering Drive Belt (Damage/Loose),Steering wheel does not turn car,0.8767155218222367
+Power Steering Drive Belt (Damage/Loose),Steering wheel is hard to turn,0.9061085944765763
+Power Steering Drive Belt (Damage/Loose),Power door locks are not working,0.8860262179048138
+Low Power Steering Fluid,Traction Control Light is on,0.8798596453662753
+Low Power Steering Fluid,Brake light is not working,0.8597438299707445
+Low Power Steering Fluid,Headlights do not change from low to high beam,0.866186439446555
+Low Power Steering Fluid,Power steering fluid is leaking,0.9267742649926384
+Low Power Steering Fluid,Transfer case fluid is low,0.8786629689487295
+Low Power Steering Fluid,Reduced Power light is on,0.8874947567783454
+Low Power Steering Fluid,Power steering fluid is brown or black,0.8986114655772329
+Low Power Steering Fluid,Steering wheel is hard to turn,0.856845847854045
+Only when the vehicle is moving,Car is not starting,0.86622477620905
+Only when the vehicle is moving,Car does not shift from park to drive,0.8818498800908217
+Only when the vehicle is moving,Car pulls in one direction,0.8922856158418033
+Only when the vehicle is moving,"When I slow down and stop the car, engine shuts off",0.8609720967628215
+Only when the vehicle is moving,Car stays running when I shut the key off,0.8587478448025715
+Only when the vehicle is moving,Car is making a noise,0.874827357043499
+Only when the vehicle is moving,Car is taking longer than normal to stop,0.8657148715755252
+Only when the vehicle is moving,Car will not turn over,0.896303669808676
+Only when the vehicle is moving,Car is slow to accelerate,0.8538177219478343
+Only when the vehicle is moving,Car is not shifting into park,0.8927277031885679
+Only when the vehicle is moving,Car idle is rough,0.8542398752330358
+Only when the vehicle is moving,Car is hard to shift,0.8766133194253487
+Only when the vehicle is moving,Fog or driving lights are not working,0.8620160460243713
+Brake Pad Wear Indicator is Contacting Rotor,Brake pads are wearing out quickly,0.8817135133018719
+Brake Pad Wear Indicator is Contacting Rotor,Brake rotors are turning blue,0.8889155110646073
+Brake Pad Quality and Rotor Finish,Brake Pedal is hard to push,0.8526452347128377
+Brake Pad Quality and Rotor Finish,Brake pedal is lower than usual,0.8558521361341325
+Brake Pad Quality and Rotor Finish,Car or steering wheel shakes when braking,0.8774007111821558
+Brake Pad Quality and Rotor Finish,"Brakes, Steering and Suspension System",0.8615662879844685
+Brake Pad Quality and Rotor Finish,Brake light is not working,0.8570534874114768
+Brake Pad Quality and Rotor Finish,Brake rotors are turning blue,0.900477077564334
+Brake Pad Quality and Rotor Finish,Brake fluid is leaking around clutch pedal,0.8575022741838784
+Brake Pad Quality and Rotor Finish,Car nose dives when braking,0.8872154675495894
+Brake Pad Quality and Rotor Finish,Steering wheel is hard to turn,0.8588896615272772
+Worn Brake Pads,Brake pads are wearing out quickly,0.9357605987591516
+Worn Brake Pads,Brake rotors are turning blue,0.8538800024820592
+Hiss- Continuous sound like air escaping.,Car is making a noise,0.8522645600258628
+Hiss- Continuous sound like air escaping.,Air is not coming out of vents,0.8546135691356518
+Hiss- Continuous sound like air escaping.,Fan speed control is not working,0.8660916007377034
+Hiss- Continuous sound like air escaping.,Turn signal light is not working,0.9263487821805155
+Hiss- Continuous sound like air escaping.,Brake light is not working,0.871111285280346
+Hiss- Continuous sound like air escaping.,Reduced Power light is on,0.8547844794767936
+Air Intake Leak,Fuel is leaking from gas tank,0.852868812140434
+Vacuum Leak,Oil/Fluid Leak,0.8731651170204876
+Vacuum Leak,Brake fluid is leaking,0.8615056581155117
+"Knock- Heavy, loud, repeating sound like a knock on the door.",Loud screeching noise when I start the car,0.8895547210417283
+"Knock- Heavy, loud, repeating sound like a knock on the door.",Loud clicking noise when I turn the car,0.9104724996597467
+"Knock- Heavy, loud, repeating sound like a knock on the door.",Car is making a noise,0.8709030575769339
+"Knock- Heavy, loud, repeating sound like a knock on the door.",Loud squealing or rattling is coming from engine,0.8670744409746579
+"Knock- Heavy, loud, repeating sound like a knock on the door.",Loud squealing or squeaking is coming from timing belt,0.8587630674207547
+"Knock- Heavy, loud, repeating sound like a knock on the door.",Loud noise is coming from rear brakes,0.8795387175579897
+"Knock- Heavy, loud, repeating sound like a knock on the door.",Loud noise when using the clutch,0.8827802260098897
+"Knock- Heavy, loud, repeating sound like a knock on the door.",Whining sound when car is in gear,0.8615941491863219
+"Knock- Heavy, loud, repeating sound like a knock on the door.",Loud noises when car is put in gear,0.9254166247322393
+"Knock- Heavy, loud, repeating sound like a knock on the door.",Clicking or popping sound is coming from wheels,0.877333621948666
+Low Engine Oil Level,Check Engine Light is on,0.8517851261228103
+Low Engine Oil Level,Oil Pressure Light is on,0.9022278909119136
+Low Engine Oil Level,Engine idle speed is high,0.8824429058026834
+Low Engine Oil Level,Reduced Power light is on,0.8845649167026006
+Low Engine Oil Level,Engine oil is black and gritty,0.8628510117857001
+Low Engine Oil Level,Oil level is low,0.9513066012689415
+Low Engine Oil Level,Check Fuel Cap light is on,0.8822569334977324
+Low Engine Oil Level,Car won't exceed a low speed or shift up,0.8647872098610581
+Worn Internal Engine Components,Check Engine Light is on,0.8740012957342355
+Worn Internal Engine Components,Brake light is not working,0.8750353044945474
+Worn Internal Engine Components,Electrical components are not working,0.8595261442561024
+Tap- Light repetitive sound. Louder than a click.,Loud clicking noise when I turn the car,0.8821451533273266
+Tap- Light repetitive sound. Louder than a click.,Loud noise when using the clutch,0.8876393374585325
+Tap- Light repetitive sound. Louder than a click.,Clicking or popping sound is coming from wheels,0.8910815883569355
+Engine valve adjustment,Noise from engine or exhaust,0.8654042358213409
+Low Engine Oil Level,Check Engine Light is on,0.8517851261228103
+Low Engine Oil Level,Oil Pressure Light is on,0.9022278909119136
+Low Engine Oil Level,Engine idle speed is high,0.8824429058026834
+Low Engine Oil Level,Reduced Power light is on,0.8845649167026006
+Low Engine Oil Level,Engine oil is black and gritty,0.8628510117857001
+Low Engine Oil Level,Oil level is low,0.9513066012689415
+Low Engine Oil Level,Check Fuel Cap light is on,0.8822569334977324
+Low Engine Oil Level,Car won't exceed a low speed or shift up,0.8647872098610581
+Low oil pressure,Oil Pressure Light is on,0.9566106279731275
+Low oil pressure,Reduced Power light is on,0.8525307631355221
+Low oil pressure,Oil level is low,0.963876198807693
+Loose or Damaged Exhaust,Gas pedal is stuck,0.8592834294523751
+Under the rear of the vehicle,Steering wheel does not turn car,0.8558787069848985
+Under the rear of the vehicle,Rear lights are not working,0.8710257454198658
+Tail Pipe (Loose/Damaged),Brake rotors are turning blue,0.8500195466184182
+Engine Compartment,Engine is misfiring,0.8522352894252282
+Damaged or Loose Front Pipe,Car pulls to left or right when I brake,0.850544103522964
+Damaged or Loose Front Pipe,Grease on inner edge of tires,0.8762512262527419
+When I start the car.,Car is not starting,0.9823654892429945
+When I start the car.,Car does not shift from park to drive,0.8890454994480557
+When I start the car.,Car pulls in one direction,0.8921268304955372
+When I start the car.,"When I slow down and stop the car, engine shuts off",0.8873989613072267
+When I start the car.,Car does not move when I step on the gas pedal,0.8699720257270216
+When I start the car.,Car stays running when I shut the key off,0.9242988120048716
+When I start the car.,Car is making a noise,0.8767110499610204
+When I start the car.,Car pulls to left or right when I brake,0.8575855169259848
+When I start the car.,Car Door Lockout,0.8966674976081483
+When I start the car.,Car is not getting enough power,0.8772162969243338
+When I start the car.,Car is taking longer than normal to stop,0.893892463886471
+When I start the car.,Car will not turn over,0.9469307187676133
+When I start the car.,Parking brake won't hold car,0.8936029909294675
+When I start the car.,Car vibrates going uphill,0.8515842625743077
+When I start the car.,Car is running hotter than normal,0.8535845906996349
+When I start the car.,Car is slow to accelerate,0.864694509485014
+When I start the car.,Car is not shifting into park,0.8518216282103499
+When I start the car.,Car idle is rough,0.8782572164303462
+When I start the car.,Car is getting worse gas mileage,0.8563338291288475
+When I start the car.,Car is hard to start,0.9679813027646956
+When I start the car.,Car is hard to shift,0.9132807381060439
+When I start the car.,Car starts and then dies,0.8808024887988153
+When I start the car.,Fuel door won't open,0.8578388651726795
+When I start the car.,Fuel door won't close,0.8606192475071274
+Loose or Worn Drive Belt,Brake pads are wearing out quickly,0.853849891818912
+When the engine is running,Check Engine Light is on,0.8742484998061036
+When the engine is running,"When I slow down and stop the car, engine shuts off",0.8765825034394654
+When the engine is running,Engine idle speed is high,0.9346715552210603
+When the engine is running,Steering wheel does not turn car,0.878720955861198
+When the engine is running,Engine is running louder than normal,0.8826628047440375
+Loose or Worn Drive Belt,Brake pads are wearing out quickly,0.853849891818912
+Brake Pad Wear Indicator is Contacting Rotor,Brake pads are wearing out quickly,0.8817135133018719
+Brake Pad Wear Indicator is Contacting Rotor,Brake rotors are turning blue,0.8889155110646073
+Brake Pad Quality and Rotor Finish,Brake Pedal is hard to push,0.8526452347128377
+Brake Pad Quality and Rotor Finish,Brake pedal is lower than usual,0.8558521361341325
+Brake Pad Quality and Rotor Finish,Car or steering wheel shakes when braking,0.8774007111821558
+Brake Pad Quality and Rotor Finish,"Brakes, Steering and Suspension System",0.8615662879844685
+Brake Pad Quality and Rotor Finish,Brake light is not working,0.8570534874114768
+Brake Pad Quality and Rotor Finish,Brake rotors are turning blue,0.900477077564334
+Brake Pad Quality and Rotor Finish,Brake fluid is leaking around clutch pedal,0.8575022741838784
+Brake Pad Quality and Rotor Finish,Car nose dives when braking,0.8872154675495894
+Brake Pad Quality and Rotor Finish,Steering wheel is hard to turn,0.8588896615272772
+Worn Brake Pads,Brake pads are wearing out quickly,0.9357605987591516
+Worn Brake Pads,Brake rotors are turning blue,0.8538800024820592
+Engine Compartment,Engine is misfiring,0.8522352894252282
+Loose or Worn Drive Belt,Brake pads are wearing out quickly,0.8538498918189121
+Wheel Bearing Failure,Check Engine Light is on,0.8540130301057437
+Wheel Bearing Failure,Steering wheel does not turn car,0.8758416311302545
+Wheel Bearing Failure,Steering wheel is hard to turn,0.8554514440542355
+Wheel Bearing Failure,Car has excessive body roll,0.8925323203378728
+Loose or Worn Drive Belt,Brake pads are wearing out quickly,0.8538498918189121
+Wheel Bearing Failure,Check Engine Light is on,0.8540130301057437
+Wheel Bearing Failure,Steering wheel does not turn car,0.8758416311302545
+Wheel Bearing Failure,Steering wheel is hard to turn,0.8554514440542355
+Wheel Bearing Failure,Car has excessive body roll,0.8925323203378728
+Clunk- A random thumping sound,Clicking or popping sound is coming from wheels,0.85164982131676
+When turning,Window is moving up or down very slowly,0.8577796438614231
+When turning,Car is not getting enough power,0.8750656239735666
+When turning,Car is taking longer than normal to stop,0.8553904417561733
+When turning,Car is hard to start,0.859596574297881
+When turning,Car is hard to shift,0.8574590337328293
+When turning,Window is moving up or down very slowly,0.8577796438614231
+When turning,Car is not getting enough power,0.8750656239735666
+When turning,Car is taking longer than normal to stop,0.8553904417561734
+When turning,Car is hard to start,0.8595965742978812
+When turning,Car is hard to shift,0.8574590337328294
+Front,Car is leaning to one side,0.8670783879814338
+Loose or Worn Front End Component,One tire is wearing faster than the others,0.852677282345313
+When putting the vehicle into gear,Check Engine Light is on,0.8577896128521816
+When putting the vehicle into gear,Car pulls in one direction,0.8595574951031032
+When putting the vehicle into gear,"When I slow down and stop the car, engine shuts off",0.8604136584312246
+When putting the vehicle into gear,Car does not move when I step on the gas pedal,0.8538484821495657
+When putting the vehicle into gear,Car is making a noise,0.8831936300907995
+When putting the vehicle into gear,Car pulls to left or right when I brake,0.8587256356956379
+When putting the vehicle into gear,Brake light is not working,0.8787861828908844
+When putting the vehicle into gear,Steering wheel does not turn car,0.8981788408809317
+When putting the vehicle into gear,Car will not turn over,0.8748333635519284
+When putting the vehicle into gear,Parking brake light stays on,0.8555807378242115
+When putting the vehicle into gear,Parking brake won't hold car,0.8816301453279107
+When putting the vehicle into gear,Whining sound when car is in gear,0.8783422843957359
+When putting the vehicle into gear,Car surges when air conditioning is on,0.8650038698493274
+When putting the vehicle into gear,Car is hard to shift,0.8772609501674794
+When putting the vehicle into gear,Fog or driving lights are not working,0.8529330538132871
+When putting the vehicle into gear,Rear lights are not working,0.8631373754201053
+When putting the vehicle into gear,Car has excessive body roll,0.8655449658935588
+When putting the vehicle into gear,One tire is wearing faster than the others,0.8548523636387023
+"See - I see it (i.e. oil leak, warning light, or smoke)",Brake Warning Light is on,0.8533336514198939
+"See - I see it (i.e. oil leak, warning light, or smoke)",Oil Pressure Light is on,0.8990226515967041
+"See - I see it (i.e. oil leak, warning light, or smoke)",Temperature Warning Light is on,0.8780126002964534
+"See - I see it (i.e. oil leak, warning light, or smoke)",Warning Light is on,0.8945956248986641
+"See - I see it (i.e. oil leak, warning light, or smoke)",Turn signal light is not working,0.8707340159853054
+"See - I see it (i.e. oil leak, warning light, or smoke)",Oil is leaking into spark plug well,0.8609409908146857
+"See - I see it (i.e. oil leak, warning light, or smoke)",Smell of oil in car,0.856392545164316
+"See - I see it (i.e. oil leak, warning light, or smoke)",Check Fuel Cap light is on,0.8813103311807245
+"See - I see it (i.e. oil leak, warning light, or smoke)",Gas cap won't come off,0.8779971524861707
+"See - I see it (i.e. oil leak, warning light, or smoke)",Fuel door won't close,0.8780134054928221
+Engine Compartment,Engine is misfiring,0.8522352894252282
+Coolant Leak (smoke),Coolant is leaking,0.9098827735296182
+Coolant Leak (smoke),Oil/Fluid Leak,0.8683869868619285
+Exhaust,Noise from engine or exhaust,0.8942313597933098
+Exhaust,Smoke from engine or exhaust,0.8995532181953871
+Exhaust,Exhaust fume odor in car,0.8512676630996286
+Engine Oil- Brown to blackish in color,Brake fluid is black or brown,0.8578732977946034
+Leaking Valve Covers,Transmission fluid is leaking,0.8688690668551401
+Leaking Valve Covers,Brake fluid is leaking,0.8631153000748967
+Leaking Valve Covers,Valve cover gasket is leaking,0.9257408024345982
+Leaking Oil Filter,Oil is leaking into spark plug well,0.8740821029230927
+Leaking Oil Filter,Fuel is leaking from gas tank,0.8750088866185834
+Leaking Oil Filter,Differential oil is contaminated,0.8720548039625737
+Transmission Lines leaking,Transmission fluid is leaking,0.8988582116428656
+Transmission Pan Gasket Leaking,Valve cover gasket is leaking,0.8924741173829732
+Power steering fluid- Red or pinkish to light brown in color,Brake fluid is black or brown,0.8892640261303032
+Power steering fluid- Red or pinkish to light brown in color,Power steering fluid is brown or black,0.9112259601447702
+Power Steering Hose Leak,Power steering fluid is leaking,0.9434220947296661
+Power Steering Hose Leak,Brake fluid is leaking,0.8694994659007201
+Power Steering Hose Leak,Brake fluid is leaking around clutch pedal,0.8593895616482077
+Water Pump Leak,Oil is leaking into spark plug well,0.8770098997303049
+Water Pump Leak,Fuel is leaking from gas tank,0.8947264366915622
+Warning light is on,Brake Warning Light is on,0.9126879516493777
+Warning light is on,Temperature Warning Light is on,0.9239794421561925
+Warning light is on,Warning Light is on,1.0
+Warning light is on,Service Light is on,0.8667193706122073
+Warning light is on,Turn signal light is not working,0.8779271336821572
+Check Engine Light,Check Engine Light is on,0.9999999999999998
+Check Engine Light,Brake Warning Light is on,0.9027089315683137
+Check Engine Light,Traction Control Light is on,0.8644469533032919
+Check Engine Light,Service Light is on,0.8617624108848266
+Check Engine Light,Noise from engine or exhaust,0.8521697630503431
+Check Engine Light,Smoke from engine or exhaust,0.8580017967810145
+Check Engine Light,"When I slow down and stop the car, engine shuts off",0.854358970743201
+Check Engine Light,Car is making a noise,0.877513218597917
+Check Engine Light,Engine idle speed is high,0.9085557640535498
+Check Engine Light,Turn signal light is not working,0.8655667356283282
+Check Engine Light,Brake light is not working,0.8981672851307858
+Check Engine Light,Air Bag Light is on,0.8580946293420334
+Check Engine Light,Steering wheel does not turn car,0.8576744199467952
+Check Engine Light,Parking brake light stays on,0.8805182308002318
+Check Engine Light,Car surges when air conditioning is on,0.8598789200601878
+Check Engine Light,Car has excessive body roll,0.8563271990510187
+Check Engine Light,Check Fuel Cap light is on,0.8888545862727886
+Check Engine Light,Car won't exceed a low speed or shift up,0.8513854134302106
+Check Engine Light (Fault Codes),Check Engine Light is on,0.9359482673443008
+Check Engine Light (Fault Codes),Brake Warning Light is on,0.8761433040896873
+Check Engine Light (Fault Codes),Car is making a noise,0.8514785919607647
+Check Engine Light (Fault Codes),Engine idle speed is high,0.8514209137520653
+Check Engine Light (Fault Codes),Brake light is not working,0.8633943347655468
+Check Engine Light (Fault Codes),Windshield Wiper/Washer System Inspection,0.8514674708882845
+Check Engine Light (Fault Codes),Exhaust System Inspection,0.8559165970410144
+Tire Pressure Light (TPMS),Brake Warning Light is on,0.8905752469113607
+Tire Pressure Light (TPMS),Traction Control Light is on,0.8629692475710576
+Temperature Warning Light,Brake Warning Light is on,0.8726723611966105
+Temperature Warning Light,Temperature Warning Light is on,1.0
+Temperature Warning Light,Warning Light is on,0.9239794421561925
+Battery Charge Warning light,Check Engine Light is on,0.8593480387988086
+Battery Charge Warning light,Brake Warning Light is on,0.8600282109516492
+Battery Charge Warning light,Battery Light is on,0.9123261423019533
+Battery Charge Warning light,Warning Light is on,0.8986806691058454
+Battery Charge Warning light,Service Light is on,0.8734513932333728
+Battery Charge Warning light,Turn signal light is not working,0.8512374246020158
+Battery Charge Warning light,Battery will not hold a charge,0.9063730156576033
+Battery Charge Warning light,Reduced Power light is on,0.8595014302375785
+Oil Pressure Warnign Light,Oil Pressure Light is on,1.0
+Oil Pressure Warnign Light,Reduced Power light is on,0.9061463069081985
+Oil Pressure Warnign Light,Oil is leaking into spark plug well,0.8686341790647428
+Oil Pressure Warnign Light,Oil level is low,0.9155382488636219
+Oil Pressure Warnign Light,Check Fuel Cap light is on,0.8783593975456859
+Worn oil pump,Oil Pressure Light is on,0.8875516682526234
+Worn oil pump,Check Fuel Cap light is on,0.8940839090225067
+Brake Warning Light,Check Engine Light is on,0.9027089315683137
+Brake Warning Light,Brake Warning Light is on,1.0
+Brake Warning Light,Temperature Warning Light is on,0.8726723611966106
+Brake Warning Light,Warning Light is on,0.9126879516493777
+Brake Warning Light,Traction Control Light is on,0.8726902168621177
+Brake Warning Light,Turn signal light is not working,0.8508932622415044
+Brake Warning Light,Brake light is not working,0.9016357916231074
+Brake Warning Light,Loud noise is coming from rear brakes,0.895430630649249
+Brake Warning Light,Car surges when air conditioning is on,0.867350471575553
+Brake Warning Light,Check Fuel Cap light is on,0.8666721437210448
+Check Engine Light,Check Engine Light is on,0.9999999999999998
+Check Engine Light,Brake Warning Light is on,0.9027089315683137
+Check Engine Light,Traction Control Light is on,0.8644469533032919
+Check Engine Light,Service Light is on,0.8617624108848266
+Check Engine Light,Noise from engine or exhaust,0.8521697630503431
+Check Engine Light,Smoke from engine or exhaust,0.8580017967810145
+Check Engine Light,"When I slow down and stop the car, engine shuts off",0.854358970743201
+Check Engine Light,Car is making a noise,0.877513218597917
+Check Engine Light,Engine idle speed is high,0.9085557640535498
+Check Engine Light,Turn signal light is not working,0.8655667356283282
+Check Engine Light,Brake light is not working,0.8981672851307858
+Check Engine Light,Air Bag Light is on,0.8580946293420334
+Check Engine Light,Steering wheel does not turn car,0.8576744199467952
+Check Engine Light,Parking brake light stays on,0.8805182308002318
+Check Engine Light,Car surges when air conditioning is on,0.8598789200601878
+Check Engine Light,Car has excessive body roll,0.8563271990510187
+Check Engine Light,Check Fuel Cap light is on,0.8888545862727886
+Check Engine Light,Car won't exceed a low speed or shift up,0.8513854134302106
+ABS Warning Light,Brake Warning Light is on,0.9037384979155335
+ABS Warning Light,ABS Light is on,0.9322273741681169
+ABS Warning Light,Warning Light is on,0.8906371998117141
+"Check Engine Light on with code P0382 or, P0400-P0408",Check Engine Light is on,0.9622796508250617
+"Check Engine Light on with code P0382 or, P0400-P0408",Brake Warning Light is on,0.872254838122323
+"Check Engine Light on with code P0382 or, P0400-P0408",Service Light is on,0.862174414629245
+"Check Engine Light on with code P0382 or, P0400-P0408",Engine idle speed is high,0.8524206176018463
+"Check Engine Light on with code P0382 or, P0400-P0408",Brake light is not working,0.8649186371021653
+"Check Engine Light on with code P0382 or, P0400-P0408",Check Fuel Cap light is on,0.8525811605585016
+"Check Engine Light on with code P0382 or, P0400-P0408",Exhaust System Inspection,0.8522709866466153
+Check Engine Light On (EGR Valve),Check Engine Light is on,0.8935611706366804
+Check Engine Light On (EGR Valve),Noise from engine or exhaust,0.9117816424762181
+Check Engine Light On (EGR Valve),Smoke from engine or exhaust,0.8819812307730145
+Check Engine Light On (EGR Valve),"Brakes, Steering and Suspension System",0.8583004295403559
+Check Engine Light On (EGR Valve),Exhaust System Inspection,0.8608345163032021
+"Smell - I smell it (i.e. gasoline, rotten eggs, or burning oil)",Smell of oil in car,0.8735343119608937
+All the time,Fan speed control is not working,0.8562514973600698
+All the time,Car is taking longer than normal to stop,0.8533725250547889
+All the time,Car is hard to start,0.8566411551128508
+Engine Compartment,Engine is misfiring,0.8522352894252282
+Fuel Injector Leak,Coolant is leaking,0.859880505421311
+Fuel Injector Leak,Fuel is leaking from gas tank,0.9086138233350992
+Fuel Rail/Fuel Pressure Regulator Leak,Oil is leaking into spark plug well,0.8832559496079299
+Fuel Rail/Fuel Pressure Regulator Leak,Fuel is leaking from gas tank,0.8677108344973067
+Rear of the Vehicle,Steering wheel does not turn car,0.8558787069848985
+Rear of the Vehicle,Rear lights are not working,0.8710257454198658
+Fuel Filter Leak,Transmission fluid is leaking,0.8518003351455916
+Fuel Filter Leak,Oil is leaking into spark plug well,0.8606110595580491
+Fuel Filter Leak,Fuel is leaking from gas tank,0.8949040195757713
+Fuel Tank Leak,Oil is leaking into spark plug well,0.8537337242389227
+Fuel Tank Leak,Fuel is leaking from gas tank,0.9732856137349482
+Fuel Pump Assembly Failure,Car does not move when I step on the gas pedal,0.874707433559565
+"Only when engine is running, idling.","When I slow down and stop the car, engine shuts off",0.874077128353911
+"Only when engine is running, idling.",Engine idle speed is high,0.900038995918381
+"Only when engine is running, idling.",Engine is running louder than normal,0.8602033809254591
+Inside the vehicle when the heat or A/C is turned on.,Ignition key is stuck and does not turn,0.8584273607053994
+Inside the vehicle when the heat or A/C is turned on.,Car pulls in one direction,0.8667917191050205
+Inside the vehicle when the heat or A/C is turned on.,Car stays running when I shut the key off,0.8787991474358896
+Inside the vehicle when the heat or A/C is turned on.,Car is making a noise,0.8663789835495708
+Inside the vehicle when the heat or A/C is turned on.,Car pulls to left or right when I brake,0.855644497988181
+Inside the vehicle when the heat or A/C is turned on.,Turn signal light is not working,0.8685098080705959
+Inside the vehicle when the heat or A/C is turned on.,Brake light is not working,0.8560118142517565
+Inside the vehicle when the heat or A/C is turned on.,Air Bag Light is on,0.8601655644716122
+Inside the vehicle when the heat or A/C is turned on.,Car is not getting enough power,0.8950046499769932
+Inside the vehicle when the heat or A/C is turned on.,Car is taking longer than normal to stop,0.8658219358124676
+Inside the vehicle when the heat or A/C is turned on.,Car will not turn over,0.8764633197170943
+Inside the vehicle when the heat or A/C is turned on.,Parking brake light stays on,0.8500609195015559
+Inside the vehicle when the heat or A/C is turned on.,Car is running hotter than normal,0.8726563043379496
+Inside the vehicle when the heat or A/C is turned on.,Car idle is rough,0.8522261027821021
+Inside the vehicle when the heat or A/C is turned on.,Car is hard to start,0.866553483718634
+Inside the vehicle when the heat or A/C is turned on.,Car is hard to shift,0.8669827225024865
+Inside the vehicle when the heat or A/C is turned on.,Fog or driving lights are not working,0.8784221928990603
+Inside the vehicle when the heat or A/C is turned on.,Car has excessive body roll,0.8576772672468942
+Inside the vehicle when the heat or A/C is turned on.,One tire is wearing faster than the others,0.8600616660618178
+Inside the vehicle when the heat or A/C is turned on.,Check Fuel Cap light is on,0.8580724378895691
+Inside the vehicle when the heat or A/C is turned on.,Fuel door won't open,0.8587949295657441
+Inside the vehicle when the heat or A/C is turned on.,Fuel door won't close,0.8847087266181924
+Fuel Injector Leak,Coolant is leaking,0.859880505421311
+Fuel Injector Leak,Fuel is leaking from gas tank,0.9086138233350992
+Fuel Rail/Fuel Pressure Regulator Leak,Oil is leaking into spark plug well,0.8832559496079299
+Fuel Rail/Fuel Pressure Regulator Leak,Fuel is leaking from gas tank,0.8677108344973067
+Only outside the vehicle.,Car does not shift from park to drive,0.8694885190463884
+Only outside the vehicle.,Car pulls in one direction,0.8611939865065887
+Only outside the vehicle.,Car will not turn over,0.875305094943022
+Only outside the vehicle.,Car is not shifting into park,0.8800077160922969
+Fuel Filter Leak,Transmission fluid is leaking,0.8518003351455916
+Fuel Filter Leak,Oil is leaking into spark plug well,0.8606110595580491
+Fuel Filter Leak,Fuel is leaking from gas tank,0.8949040195757713
+Fuel Tank Leak,Oil is leaking into spark plug well,0.8537337242389227
+Fuel Tank Leak,Fuel is leaking from gas tank,0.9732856137349482
+Fuel Pump Assembly Failure,Car does not move when I step on the gas pedal,0.874707433559565
+Rich Fuel Condition,Oil level is low,0.858407520836183
+Leaking heater core,Power steering fluid is leaking,0.884622070332931
+Leaking heater core,Brake fluid is leaking,0.8653840731063253
+After the vehicle is warmed up,Car is running hotter than normal,0.8591241077003255
+Coolant Leak (smoke),Coolant is leaking,0.9098827735296182
+Coolant Leak (smoke),Oil/Fluid Leak,0.8683869868619285
+Burning oil,Oil Pressure Light is on,0.863766344811609
+Burning oil,Oil is leaking into spark plug well,0.8520470558454323
+Burning oil,Smell of oil in car,0.8890973111777468
+Burning oil,Fuel is leaking from gas tank,0.8563400759083959
+Engine Oil Leak (Odor),Oil is leaking into spark plug well,0.858468254152331
+Engine Oil Leak (Odor),Smell of oil in car,0.8733465451012336
+Engine Oil Leak (Odor),Fuel is leaking from gas tank,0.8879925636032371
+Exhaust smell,Smoke from engine or exhaust,0.8595573516829972
+Exhaust smell,Exhaust fume odor in car,0.8872132548967097
+Inside the vehicle,Car pulls in one direction,0.8758107898833448
+Inside the vehicle,Car is making a noise,0.8503606210717244
+Inside the vehicle,Car will not turn over,0.8843375763346154
+Exhaust Leak (Front Pipe),Gas pedal is stuck,0.8683950799276129
+Exhaust Leak (Front Pipe),Smoke from engine or exhaust,0.869072425428508
+Exhaust Leak (Front Pipe),Power steering fluid is leaking,0.853534443149586
+Exhaust Leak (Front Pipe),Brake fluid is leaking around clutch pedal,0.8711328475208019
+Exhaust Leak (Front Pipe),Valve cover gasket is leaking,0.8855715713570758
+Outside the vehicle,Car does not shift from park to drive,0.8694885190463884
+Outside the vehicle,Car pulls in one direction,0.8611939865065887
+Outside the vehicle,Car will not turn over,0.875305094943022
+Outside the vehicle,Car is not shifting into park,0.8800077160922969
+Exhaust System Leak,Transmission fluid is leaking,0.8748382428195185
+Exhaust System Leak,Power steering fluid is leaking,0.8873850958249174
+Exhaust System Leak,Brake System Inspection,0.8578065272392058
+Exhaust System Leak,Brake fluid is leaking,0.8752714105577318
+Exhaust System Leak,Exhaust System Inspection,0.9132688671435221
+The engine cranks normally but does not start,Check Engine Light is on,0.8749052730568149
+The engine cranks normally but does not start,"When I slow down and stop the car, engine shuts off",0.8882386421217966
+The engine cranks normally but does not start,Engine idle speed is high,0.9074762847261175
+The engine cranks normally but does not start,Steering wheel does not turn car,0.8536732557605005
+The engine cranks normally but does not start,Engine is running louder than normal,0.9236068270428037
+The engine cranks normally but does not start,Steering wheel is hard to turn,0.8555245203691242
+No Fuel Pressure,Oil Pressure Light is on,0.8989222425036693
+No Fuel Pressure,Oil is leaking into spark plug well,0.8747398389237345
+No Fuel Pressure,Fuel is leaking from gas tank,0.8589161557809935
+No Fuel Pressure,Check Fuel Cap light is on,0.8543469737254346
+The engine cranks over slowly,Engine is sputtering,0.8742548535921735
+The engine cranks over slowly,Engine is running louder than normal,0.8536152509324801
+The vehicle is backfiring when trying to start,Car is not starting,0.858621074375941
+The vehicle is backfiring when trying to start,Car pulls in one direction,0.8515038841122032
+The vehicle is backfiring when trying to start,"When I slow down and stop the car, engine shuts off",0.8810398290359859
+The vehicle is backfiring when trying to start,Car does not move when I step on the gas pedal,0.8632246482716466
+The vehicle is backfiring when trying to start,Car stays running when I shut the key off,0.860129581823231
+The vehicle is backfiring when trying to start,Car is stalling,0.890095339798048
+The vehicle is backfiring when trying to start,Car is not getting enough power,0.8652061905969264
+The vehicle is backfiring when trying to start,Car is taking longer than normal to stop,0.8756371956894936
+The vehicle is backfiring when trying to start,Car will not turn over,0.9082817970736622
+The vehicle is backfiring when trying to start,Parking brake won't hold car,0.8605757041848555
+The vehicle is backfiring when trying to start,Car vibrates going uphill,0.882962960656285
+The vehicle is backfiring when trying to start,Car overheats quickly,0.860478919646094
+The vehicle is backfiring when trying to start,Car is slow to accelerate,0.8962439615660084
+The vehicle is backfiring when trying to start,Car is hard to start,0.8998001213824428
+The vehicle is backfiring when trying to start,Car is hard to shift,0.8987659416627606
+The vehicle is backfiring when trying to start,Fuel door won't close,0.8500671339292514
+Bad Ignition Component,Ignition key does not turn,0.8843825789149538
+Bad Ignition Component,Ignition key is stuck and does not turn,0.8612807967794756
+Bad Ignition Component,Grinding noise when key turns in ignition,0.895148511819487
+Dead Battery,Battery is dead,1.0000000000000002
+One strong click or knock,Car pulls in one direction,0.8560676054889934
+One strong click or knock,Turn signal light is not working,0.8513920774544688
+One strong click or knock,Car is not getting enough power,0.8554667016931593
+One strong click or knock,Car is hard to start,0.8563996159429272
+One strong click or knock,Car is hard to shift,0.85697894130139
+"A spinning, whinning, or gear grinding sound",Grinding noise when key turns in ignition,0.8589038497226242
+"A spinning, whinning, or gear grinding sound",Brake rotors are turning blue,0.862110592058307
+"A spinning, whinning, or gear grinding sound",Grinding noise when braking,0.8590104944125602
+"A spinning, whinning, or gear grinding sound",Whining sound when car is in gear,0.8671787566146787
+"A spinning, whinning, or gear grinding sound",Grinding sound from transmission,0.899440900557267
+"A spinning, whinning, or gear grinding sound",Grinding noise while shifting,0.89177665450843
+"A spinning, whinning, or gear grinding sound",Squealing noise when steering wheel is turned,0.8724172843551594
+"A spinning, whinning, or gear grinding sound",Clunking or knocking noise from wheels,0.8727318265001877
+"A spinning, whinning, or gear grinding sound",Clicking or popping sound is coming from wheels,0.8565694761421535
+Brakes,"Brakes, Steering and Suspension Inspection",0.8614836870708602
+Brakes,Squealing noise from brakes,0.8558452455478702
+Brakes,Car or steering wheel shakes when braking,0.8679687593020836
+Brakes,"Brakes, Steering and Suspension System",0.8825037826467201
+Brakes,Brake pedal is pulsating,0.8650311928835125
+Brakes,Creaking noise when turning the steering wheel,0.8562379612771984
+My brakes are grinding.,Brake Pedal is hard to push,0.871442843605994
+My brakes are grinding.,Brake pedal is pulsating,0.8628564103003032
+My brakes are grinding.,Grinding noise when braking,0.9042589457477502
+My brakes are grinding.,Brake pedal is spongy,0.8916201005762963
+Worn Front Brakes,Brake pads are wearing out quickly,0.8974448114877129
+Worn Front Brakes,Brake rotors are turning blue,0.8611350487041416
+Worn Front Brakes,Steering wheel feels loose,0.8557203665617482
+Worn Rear Brakes,Brake pads are wearing out quickly,0.8578506918845336
+Worn Rear Brakes,Brake rotors are turning blue,0.8522571961410434
+My brakes are squealing.,Squealing noise from brakes,0.9458887715848581
+Brake Pad Wear Indicator is Contacting Rotor,Brake pads are wearing out quickly,0.8817135133018719
+Brake Pad Wear Indicator is Contacting Rotor,Brake rotors are turning blue,0.8889155110646073
+Brake Pad Quality and Rotor Finish,Brake Pedal is hard to push,0.8526452347128377
+Brake Pad Quality and Rotor Finish,Brake pedal is lower than usual,0.8558521361341325
+Brake Pad Quality and Rotor Finish,Car or steering wheel shakes when braking,0.8774007111821558
+Brake Pad Quality and Rotor Finish,"Brakes, Steering and Suspension System",0.8615662879844685
+Brake Pad Quality and Rotor Finish,Brake light is not working,0.8570534874114768
+Brake Pad Quality and Rotor Finish,Brake rotors are turning blue,0.900477077564334
+Brake Pad Quality and Rotor Finish,Brake fluid is leaking around clutch pedal,0.8575022741838784
+Brake Pad Quality and Rotor Finish,Car nose dives when braking,0.8872154675495894
+Brake Pad Quality and Rotor Finish,Steering wheel is hard to turn,0.8588896615272772
+Worn Brake Pads,Brake pads are wearing out quickly,0.9357605987591516
+Worn Brake Pads,Brake rotors are turning blue,0.8538800024820592
+My brakes pull.,Brake Pedal is hard to push,0.9303452281643314
+My brakes pull.,Car pulls to left or right when I brake,0.8801550706320447
+My brakes pull.,Car or steering wheel shakes when braking,0.8774028747814037
+My brakes pull.,"Brakes, Steering and Suspension System",0.8665897071092719
+My brakes pull.,Steering wheel does not turn car,0.8648859721396432
+My brakes pull.,Brake pressure is uneven,0.8509638468255715
+My brakes pull.,Brake rotors are turning blue,0.8640889284472345
+My brakes pull.,Loud noise is coming from rear brakes,0.8532492417009431
+My brakes pull.,Creaking noise when turning the steering wheel,0.8575363503250852
+My brakes pull.,Squealing noise when steering wheel is turned,0.8613626060859033
+My brakes pull.,Steering wheel is hard to turn,0.8804810926985565
+Uneven Tire Pressure,Brake pressure is uneven,0.9458414179435355
+I have a hard brake pedal.,Gas pedal is stuck,0.8960877172513639
+I have a hard brake pedal.,Brake Pedal is hard to push,0.9702352126627225
+I have a hard brake pedal.,Brake pedal is lower than usual,0.9176015234557794
+I have a hard brake pedal.,Car or steering wheel shakes when braking,0.8569282918945469
+I have a hard brake pedal.,"Brakes, Steering and Suspension System",0.8571594346924258
+I have a hard brake pedal.,Brake pedal is pulsating,0.8995562791462245
+I have a hard brake pedal.,Brake pressure is uneven,0.865873731288482
+I have a hard brake pedal.,Brake pedal is spongy,0.8846842061404275
+I have a hard brake pedal.,Loud noise is coming from rear brakes,0.8546575992118116
+I have a hard brake pedal.,Hissing noise when brake pedal is depressed,0.8753497328133052
+I have a hard brake pedal.,Creaking noise when turning the steering wheel,0.8727156853709785
+I have a hard brake pedal.,Brake fluid is leaking around clutch pedal,0.8842542284297256
+I have a hard brake pedal.,Squealing noise when steering wheel is turned,0.8867864054256296
+I have a hard brake pedal.,Steering wheel is hard to turn,0.8521173823950419
+I have a spongy or low brake pedal.,Gas pedal is stuck,0.8542092568399925
+I have a spongy or low brake pedal.,Brake Pedal is hard to push,0.8685710875646756
+I have a spongy or low brake pedal.,Brake pedal is lower than usual,0.9128077763123115
+I have a spongy or low brake pedal.,Brake pedal is pulsating,0.8840356625459622
+I have a spongy or low brake pedal.,Brake pressure is uneven,0.8770364967044657
+I have a spongy or low brake pedal.,Brake pedal is spongy,0.93937693616845
+I have a spongy or low brake pedal.,Hissing noise when brake pedal is depressed,0.8569542084070657
+I have a spongy or low brake pedal.,Brake fluid is leaking around clutch pedal,0.8980010677416691
+Air in Brake Hydraulic System,Brake Warning Light is on,0.8670762779208394
+Air in Brake Hydraulic System,Traction Control Light is on,0.8741658399433984
+Air in Brake Hydraulic System,"Brakes, Steering and Suspension Inspection",0.8537638777255099
+Air in Brake Hydraulic System,Brake safety,0.8651815977260422
+Air in Brake Hydraulic System,"Brakes, Steering and Suspension System",0.905952645858042
+Air in Brake Hydraulic System,Brake light is not working,0.8978811777823521
+Air in Brake Hydraulic System,Power steering fluid is leaking,0.8564993701081373
+Air in Brake Hydraulic System,Brake System Inspection,0.9247704847089111
+Air in Brake Hydraulic System,Windshield Wiper/Washer System Inspection,0.8692525394449712
+Air in Brake Hydraulic System,Exhaust System Inspection,0.8891112045217341
+Brake Master Cylinder Internal Leak.,"Brakes, Steering and Suspension System",0.8512414083473985
+Brake Master Cylinder Internal Leak.,Power steering fluid is leaking,0.898362541341042
+Brake Master Cylinder Internal Leak.,Brake System Inspection,0.850797807880308
+Brake Master Cylinder Internal Leak.,Brake fluid is leaking,0.8892393135334107
+Brake Master Cylinder Internal Leak.,Brake fluid is leaking around clutch pedal,0.8941942367974747
+Brake Master Cylinder Internal Leak.,Valve cover gasket is leaking,0.8519827174297758
+I have a pulsating brake pedal.,Squealing noise from brakes,0.8512976207372372
+I have a pulsating brake pedal.,Brake pedal is lower than usual,0.8505902900436537
+I have a pulsating brake pedal.,Brake Pedal vibrates or shakes,0.8977003022820926
+I have a pulsating brake pedal.,Brake pedal is pulsating,1.0
+I have a pulsating brake pedal.,Brake pedal is spongy,0.9185254843030797
+I have a pulsating brake pedal.,Hissing noise when brake pedal is depressed,0.8821774245276612
+Warped Brake Rotors,Brake pedal is pulsating,0.8533876036754348
+Loose or Worn Wheel Bearing,Brake pads are wearing out quickly,0.857564462006792
+My brake warning light is on.,Check Engine Light is on,0.9027089315683137
+My brake warning light is on.,Brake Warning Light is on,1.0000000000000002
+My brake warning light is on.,Temperature Warning Light is on,0.8726723611966106
+My brake warning light is on.,Warning Light is on,0.9126879516493777
+My brake warning light is on.,Traction Control Light is on,0.8726902168621179
+My brake warning light is on.,Turn signal light is not working,0.8508932622415044
+My brake warning light is on.,Brake light is not working,0.9016357916231074
+My brake warning light is on.,Loud noise is coming from rear brakes,0.895430630649249
+My brake warning light is on.,Car surges when air conditioning is on,0.867350471575553
+My brake warning light is on.,Check Fuel Cap light is on,0.866672143721045
+Low Brake Fluid,Brake pedal is lower than usual,0.8878482349985412
+Low Brake Fluid,Power steering fluid is leaking,0.8728690333041832
+Low Brake Fluid,Brake fluid is leaking,0.8784235027798456
+Low Brake Fluid,Brake pressure is uneven,0.8792919543712973
+Low Brake Fluid,Brake fluid is leaking around clutch pedal,0.9116758516577903
+Parking Brake Lever Engaged,Parking brake is stuck,0.8821952717445594
+Faulty Parking Brake Switch,Car shuts off when stepping on gas pedal,0.8517225159883495
+Faulty Parking Brake Switch,Parking / Emergency Brake does not work,0.8506965075223436
+Faulty Parking Brake Switch,Brake safety,0.8652898755181436
+Faulty Parking Brake Switch,"Brakes, Steering and Suspension System",0.8714993808670402
+Faulty Parking Brake Switch,Brake System Inspection,0.8615233283330922
+Faulty Parking Brake Switch,Parking brake light stays on,0.8616900009542275
+Faulty Parking Brake Switch,Parking brake is stuck,0.9208867411830752
+Faulty Parking Brake Switch,Parking brake won't hold car,0.8599704600485397
+My ABS light is on.,ABS Light is on,1.0
+Check Engine & Warning Lights,Check Engine Light is on,0.9537091234817643
+Check Engine & Warning Lights,Brake Warning Light is on,0.931964342340481
+Check Engine & Warning Lights,Warning Light is on,0.8743451877496548
+Check Engine & Warning Lights,"When I slow down and stop the car, engine shuts off",0.8569817220892324
+Check Engine & Warning Lights,Loud clicking noise when I turn the car,0.8622213535295842
+Check Engine & Warning Lights,Car is making a noise,0.8806017192374619
+Check Engine & Warning Lights,Brake light is not working,0.8578396294913965
+Check Engine & Warning Lights,Loud noise is coming from rear brakes,0.8635829961875358
+Check Engine & Warning Lights,Parking brake light stays on,0.8642242869516982
+Check Engine & Warning Lights,Car surges when air conditioning is on,0.8510323231707408
+Check Engine & Warning Lights,Loud noises when car is put in gear,0.8658838919505871
+Check Engine & Warning Lights,Fog or driving lights are not working,0.8543461105961023
+Check Engine & Warning Lights,Check Fuel Cap light is on,0.8567835577248094
+Check Engine Light,Check Engine Light is on,0.9999999999999998
+Check Engine Light,Brake Warning Light is on,0.9027089315683137
+Check Engine Light,Traction Control Light is on,0.8644469533032919
+Check Engine Light,Service Light is on,0.8617624108848266
+Check Engine Light,Noise from engine or exhaust,0.8521697630503431
+Check Engine Light,Smoke from engine or exhaust,0.8580017967810145
+Check Engine Light,"When I slow down and stop the car, engine shuts off",0.854358970743201
+Check Engine Light,Car is making a noise,0.877513218597917
+Check Engine Light,Engine idle speed is high,0.9085557640535498
+Check Engine Light,Turn signal light is not working,0.8655667356283282
+Check Engine Light,Brake light is not working,0.8981672851307858
+Check Engine Light,Air Bag Light is on,0.8580946293420334
+Check Engine Light,Steering wheel does not turn car,0.8576744199467952
+Check Engine Light,Parking brake light stays on,0.8805182308002318
+Check Engine Light,Car surges when air conditioning is on,0.8598789200601878
+Check Engine Light,Car has excessive body roll,0.8563271990510187
+Check Engine Light,Check Fuel Cap light is on,0.8888545862727886
+Check Engine Light,Car won't exceed a low speed or shift up,0.8513854134302106
+Check Engine Light (Fault Codes),Check Engine Light is on,0.9359482673443008
+Check Engine Light (Fault Codes),Brake Warning Light is on,0.8761433040896873
+Check Engine Light (Fault Codes),Car is making a noise,0.8514785919607647
+Check Engine Light (Fault Codes),Engine idle speed is high,0.8514209137520653
+Check Engine Light (Fault Codes),Brake light is not working,0.8633943347655468
+Check Engine Light (Fault Codes),Windshield Wiper/Washer System Inspection,0.8514674708882845
+Check Engine Light (Fault Codes),Exhaust System Inspection,0.8559165970410144
+Tire Pressure Light (TPMS),Brake Warning Light is on,0.8905752469113607
+Tire Pressure Light (TPMS),Traction Control Light is on,0.8629692475710576
+Temperature Warning Light,Brake Warning Light is on,0.8726723611966105
+Temperature Warning Light,Temperature Warning Light is on,1.0
+Temperature Warning Light,Warning Light is on,0.9239794421561925
+Battery Charge Warning Light,Check Engine Light is on,0.8593480387988086
+Battery Charge Warning Light,Brake Warning Light is on,0.8600282109516492
+Battery Charge Warning Light,Battery Light is on,0.9123261423019533
+Battery Charge Warning Light,Warning Light is on,0.8986806691058454
+Battery Charge Warning Light,Service Light is on,0.8734513932333728
+Battery Charge Warning Light,Turn signal light is not working,0.8512374246020158
+Battery Charge Warning Light,Battery will not hold a charge,0.9063730156576033
+Battery Charge Warning Light,Reduced Power light is on,0.8595014302375785
+Oil Pressure Warning Light,Brake Warning Light is on,0.8611513803244991
+Oil Pressure Warning Light,Oil Pressure Light is on,0.978930768939836
+Oil Pressure Warning Light,Temperature Warning Light is on,0.8778224016934023
+Oil Pressure Warning Light,Warning Light is on,0.9044556480664974
+Oil Pressure Warning Light,Turn signal light is not working,0.8668706684248787
+Oil Pressure Warning Light,Reduced Power light is on,0.8844193725801384
+Oil Pressure Warning Light,Oil is leaking into spark plug well,0.8598270703613247
+Oil Pressure Warning Light,Oil level is low,0.8839399119775019
+Oil Pressure Warning Light,Check Fuel Cap light is on,0.8840516216690498
+Oil Pressure Warning Light,Fuel door won't close,0.8504751271460274
+Low Engine Oil,Oil Pressure Light is on,0.893490167202134
+Low Engine Oil,Engine idle speed is high,0.8654531094252647
+Low Engine Oil,Reduced Power light is on,0.8506018859995242
+Low Engine Oil,Engine oil is black and gritty,0.8838607587657595
+Low Engine Oil,Oil level is low,0.9005226493859981
+Low Engine Oil,Check Fuel Cap light is on,0.8637197444488129
+Faulty oil pressure sensor,Brake Warning Light is on,0.8548073522401769
+Faulty oil pressure sensor,Oil Pressure Light is on,0.8605954729840729
+Faulty oil pressure sensor,Power steering fluid is leaking,0.8722089291783108
+Faulty oil pressure sensor,Oil is leaking into spark plug well,0.8771625005564849
+Worn oil pump,Oil Pressure Light is on,0.8875516682526234
+Worn oil pump,Check Fuel Cap light is on,0.8940839090225067
+Brake Warning Light,Check Engine Light is on,0.9027089315683137
+Brake Warning Light,Brake Warning Light is on,1.0000000000000002
+Brake Warning Light,Temperature Warning Light is on,0.8726723611966106
+Brake Warning Light,Warning Light is on,0.9126879516493777
+Brake Warning Light,Traction Control Light is on,0.8726902168621179
+Brake Warning Light,Turn signal light is not working,0.8508932622415044
+Brake Warning Light,Brake light is not working,0.9016357916231074
+Brake Warning Light,Loud noise is coming from rear brakes,0.895430630649249
+Brake Warning Light,Car surges when air conditioning is on,0.867350471575553
+Brake Warning Light,Check Fuel Cap light is on,0.866672143721045
+Faulty Parking Brake Switch,Car shuts off when stepping on gas pedal,0.8517225159883495
+Faulty Parking Brake Switch,Parking / Emergency Brake does not work,0.8506965075223436
+Faulty Parking Brake Switch,Brake safety,0.8652898755181436
+Faulty Parking Brake Switch,"Brakes, Steering and Suspension System",0.8714993808670402
+Faulty Parking Brake Switch,Brake System Inspection,0.8615233283330922
+Faulty Parking Brake Switch,Parking brake light stays on,0.8616900009542275
+Faulty Parking Brake Switch,Parking brake is stuck,0.9208867411830752
+Faulty Parking Brake Switch,Parking brake won't hold car,0.8599704600485397
+ABS Warning Light,Brake Warning Light is on,0.9037384979155335
+ABS Warning Light,ABS Light is on,0.9322273741681169
+ABS Warning Light,Warning Light is on,0.8906371998117141
+"Check Engine Light on with code P0382 or, P0400-P0408",Check Engine Light is on,0.9622796508250617
+"Check Engine Light on with code P0382 or, P0400-P0408",Brake Warning Light is on,0.872254838122323
+"Check Engine Light on with code P0382 or, P0400-P0408",Service Light is on,0.862174414629245
+"Check Engine Light on with code P0382 or, P0400-P0408",Engine idle speed is high,0.8524206176018463
+"Check Engine Light on with code P0382 or, P0400-P0408",Brake light is not working,0.8649186371021653
+"Check Engine Light on with code P0382 or, P0400-P0408",Check Fuel Cap light is on,0.8525811605585016
+"Check Engine Light on with code P0382 or, P0400-P0408",Exhaust System Inspection,0.8522709866466153
+Check Engine Light On (EGR Valve),Check Engine Light is on,0.8935611706366804
+Check Engine Light On (EGR Valve),Noise from engine or exhaust,0.9117816424762181
+Check Engine Light On (EGR Valve),Smoke from engine or exhaust,0.8819812307730145
+Check Engine Light On (EGR Valve),"Brakes, Steering and Suspension System",0.8583004295403559
+Check Engine Light On (EGR Valve),Exhaust System Inspection,0.8608345163032021
+Power Windows,Windows,0.8688423291383959
+Power Windows,Power window is noisy,0.8840865110657172
+One window is not going up or down,Car pulls in one direction,0.8925976457514196
+One window is not going up or down,Car stays running when I shut the key off,0.8957121950312247
+One window is not going up or down,Car pulls to left or right when I brake,0.8548493360987347
+One window is not going up or down,Window is not working,0.9037227189339633
+One window is not going up or down,Window is not going up or down,0.9705474280288835
+One window is not going up or down,Window is moving up or down very slowly,0.8537004213052887
+One window is not going up or down,Window Switch is not working,0.899938452469168
+One window is not going up or down,Window fell inside the door,0.8926641948381301
+One window is not going up or down,Door does not lock or open,0.8648081488530052
+One window is not going up or down,Car is not getting enough power,0.8813940723265452
+One window is not going up or down,Car is taking longer than normal to stop,0.8927406034797702
+One window is not going up or down,Car will not turn over,0.8714860864936951
+One window is not going up or down,Parking brake won't hold car,0.8599972295927516
+One window is not going up or down,Clutch pedal goes all the way to the floor,0.8865966630358455
+One window is not going up or down,Door will not open,0.8815676861746876
+One window is not going up or down,Car is hard to start,0.9132068282377118
+One window is not going up or down,Car is hard to shift,0.8758944982834834
+One window is not going up or down,Car is leaning to one side,0.8810077785751128
+One window is not going up or down,One tire is wearing faster than the others,0.8642125924330257
+One window is not going up or down,Fuel door won't open,0.8886074481961981
+One window is not going up or down,Fuel door won't close,0.892617168751168
+Faulty Window Motor,Check Engine Light is on,0.8603482869735252
+Low Engine Oil Level,Oil level is low,0.9195714736093745
+Low Engine Oil Level,Oil level is low,0.9195714736093745
+Low oil pressure,Oil level is low,0.9064336079842168
+When I start the car.,Car is not starting,0.943974471750816
+When I start the car.,Car is hard to start,0.9265197608213765
+Warning light is on,Warning Light is on,1.0000000000000002
+Check Engine Light,Check Engine Light is on,0.9999999999999998
+Temperature Warning Light,Temperature Warning Light is on,1.0
+Oil Pressure Warnign Light,Oil Pressure Light is on,1.0
+Brake Warning Light,Brake Warning Light is on,1.0000000000000002
+Check Engine Light,Check Engine Light is on,0.9999999999999998
+"Check Engine Light on with code P0382 or, P0400-P0408",Check Engine Light is on,0.9244056925413614
+Fuel Tank Leak,Fuel is leaking from gas tank,0.9319663626317836
+Fuel Tank Leak,Fuel is leaking from gas tank,0.9319663626317836
+Dead Battery,Battery is dead,1.0000000000000002
+My brakes are squealing.,Squealing noise from brakes,0.905212936904724
+I have a hard brake pedal.,Brake Pedal is hard to push,0.9612677134602617
+I have a spongy or low brake pedal.,Brake pedal is spongy,0.9330501591287125
+I have a pulsating brake pedal.,Brake pedal is pulsating,1.0
+My brake warning light is on.,Brake Warning Light is on,1.0000000000000002
+My ABS light is on.,ABS Light is on,1.0
+Check Engine Light,Check Engine Light is on,0.9999999999999998
+Temperature Warning Light,Temperature Warning Light is on,1.0
+Oil Pressure Warning Light,Oil Pressure Light is on,0.9511200273825711
+Brake Warning Light,Brake Warning Light is on,1.0000000000000002
+"Check Engine Light on with code P0382 or, P0400-P0408",Check Engine Light is on,0.9244056925413614
+One window is not going up or down,Window is not going up or down,0.9417972542952747
+Low Engine Oil Level,Oil level is low,0.9195714736093745
+Low Engine Oil Level,Oil level is low,0.9195714736093745
+Low oil pressure,Oil level is low,0.9064336079842168
+When I start the car.,Car is not starting,0.943974471750816
+When I start the car.,Car is hard to start,0.9265197608213765
+Warning light is on,Warning Light is on,1.0000000000000002
+Check Engine Light,Check Engine Light is on,0.9999999999999998
+Temperature Warning Light,Temperature Warning Light is on,1.0
+Oil Pressure Warnign Light,Oil Pressure Light is on,1.0
+Brake Warning Light,Brake Warning Light is on,1.0000000000000002
+Check Engine Light,Check Engine Light is on,0.9999999999999998
+"Check Engine Light on with code P0382 or, P0400-P0408",Check Engine Light is on,0.9244056925413614
+Fuel Tank Leak,Fuel is leaking from gas tank,0.9319663626317836
+Fuel Tank Leak,Fuel is leaking from gas tank,0.9319663626317836
+Dead Battery,Battery is dead,1.0000000000000002
+My brakes are squealing.,Squealing noise from brakes,0.905212936904724
+I have a hard brake pedal.,Brake Pedal is hard to push,0.9612677134602617
+I have a spongy or low brake pedal.,Brake pedal is spongy,0.9330501591287125
+I have a pulsating brake pedal.,Brake pedal is pulsating,1.0
+My brake warning light is on.,Brake Warning Light is on,1.0000000000000002
+My ABS light is on.,ABS Light is on,1.0
+Check Engine Light,Check Engine Light is on,0.9999999999999998
+Temperature Warning Light,Temperature Warning Light is on,1.0
+Oil Pressure Warning Light,Oil Pressure Light is on,0.9511200273825711
+Brake Warning Light,Brake Warning Light is on,1.0000000000000002
+"Check Engine Light on with code P0382 or, P0400-P0408",Check Engine Light is on,0.9244056925413614
+One window is not going up or down,Window is not going up or down,0.9417972542952747
+Uneven Tire Pressure,Brake pressure is uneven,0.8476320501615535
+Pulsation- Fluctuation of the brake pedal when the brakes are applied.,Brake pedal is lower than usual,0.8066227571984066
