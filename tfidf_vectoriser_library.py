@@ -10,6 +10,7 @@ import os
 import csv
 from pywsd.similarity import max_similarity
 from pywsd.utils import lemmatize
+import Lemmatizer
 
 
 def write_line_to_csv(line, header, filename):
@@ -84,7 +85,7 @@ class TfidfEmbeddingVectorizer(object):
 
     def transform_sent(self, X):
         # only transforms one sentence
-        X = tokenize(X)
+        X = Lemmatizer.lemmatize(X)
         try:
             return np.average([self.word2vec[w] * self.word2weight[w] for w in X if w in self.word2vec] or [np.zeros(self.dim)], axis=0, weights=[self.word2weight[w] for w in X if w in self.word2vec])
         except:

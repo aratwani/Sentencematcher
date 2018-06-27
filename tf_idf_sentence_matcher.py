@@ -2,9 +2,11 @@ import pandas as pd
 import sys
 import tfidf_vectoriser_library as vec_lib
 import numpy as np
+import Lemmatizer
 
 # 200  dimensions - done
-# diff method
+# diff
+
 # stemming -
 # Join automd sentences
 
@@ -57,8 +59,8 @@ def sent_matcher_tfidf_GloVe_1():
     w2v = vec_lib.import_glove6b_pretrained_vectors()
     # CREATE VECTORISER OBJECT
     vectoriser = vec_lib.TfidfEmbeddingVectorizer(w2v)
-    vectoriser.fit(df_automd_symptoms)
-    vectoriser.fit(df_ym_symptoms)
+    vectoriser.fit(Lemmatizer.lemmatize_data_frame(df_automd_symptoms))
+    vectoriser.fit(Lemmatizer.lemmatize_data_frame(df_ym_symptoms))
 
     res = pd.DataFrame()
     vec_ym_hash = {}
@@ -75,11 +77,11 @@ def sent_matcher_tfidf_GloVe_1():
             temp_dict[vec_ym] = similarity
             pass
         max_similarity_vector = max(temp_dict, key=temp_dict.get)
-        if temp_dict[max_similarity_vector] > 0.80:
-            print(vec_amd, ',', max_similarity_vector, ",", temp_dict[max_similarity_vector])
-            vec_lib.write_line_to_csv([vec_amd, max_similarity_vector, temp_dict[max_similarity_vector]], ["amd", "ym", "similarity"], "test2.csv")
-        else:
-            vec_lib.write_line_to_csv([vec_amd, "", 0], ["amd", "ym", "similarity"], "test2.csv")
+        # if temp_dict[max_similarity_vector] > 0.80:
+        vec_lib.write_line_to_csv([vec_amd, max_similarity_vector, temp_dict[max_similarity_vector]], ["amd", "ym", "similarity"], "test4.csv")
+        print(vec_amd, ',', max_similarity_vector, ",", temp_dict[max_similarity_vector])
+        # else:
+        #     vec_lib.write_line_to_csv([vec_amd, "", 0], ["amd", "ym", "similarity"], "test2.csv")
         pass
     pass
 
