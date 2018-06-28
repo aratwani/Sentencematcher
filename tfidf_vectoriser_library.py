@@ -8,7 +8,7 @@ from numpy import dot
 from numpy.linalg import norm
 import os
 import csv
-from pywsd.similarity import max_similarity
+# from pywsd.similarity import max_similarity
 from pywsd.utils import lemmatize
 import Lemmatizer
 
@@ -173,51 +173,36 @@ def cosine_similarity_vector(a, b):
 
 
 
-def lesk_word_sense(tokens, word):
-    #text = "Pulsation- Fluctuation of the brake pedal when the brakes are applied".lower()
-    pos_tagged = nltk.pos_tag(tokenize(tokens), tagset='universal')
-    print(pos_tagged)
-    # need to fix this
-    if pos_tagged[1][1]=='VERB':
-        temp_pos = 'v'
-    else:
-        temp_pos = 'n'
-    #print(lesk(tokens, pos_tagged[1][0], pos=temp_pos).definition())
-    #temp_synset = lesk(tokens, word, pos=temp_pos)
-    temp_synset = max_similarity(tokens, word, pos=temp_pos)
-    if temp_synset:
-        return temp_synset.definition()
-    else:
-        return word
+# def lesk_word_sense(tokens, word):
+#     #text = "Pulsation- Fluctuation of the brake pedal when the brakes are applied".lower()
+#     pos_tagged = nltk.pos_tag(tokenize(tokens), tagset='universal')
+#     print(pos_tagged)
+#     # need to fix this
+#     if pos_tagged[1][1]=='VERB':
+#         temp_pos = 'v'
+#     else:
+#         temp_pos = 'n'
+#     #print(lesk(tokens, pos_tagged[1][0], pos=temp_pos).definition())
+#     #temp_synset = lesk(tokens, word, pos=temp_pos)
+#     temp_synset = max_similarity(tokens, word, pos=temp_pos)
+#     if temp_synset:
+#         return temp_synset.definition()
+#     else:
+#         return word
 
 
-def tfidf_Lesk_sent_tranformer(text, w2v):
-    mean_vectorsizer = MeanEmbeddingVectorizer(w2v)
-    tokens = tokenize(text)
-    sent_arr = []
-    for tkn in tokens:
-        # get the meaning sentence from the wordnet
-        temp_sent = lesk_word_sense(text, tkn)
-        sent_arr.append(temp_sent)
-    word_vec_arr = mean_vectorsizer.transform(sent_arr)
-    res = {}
-    for i in range(len(tokens)):
-        res[tokens[i].lower()] = word_vec_arr[i]
-    return res
-    pass
+# def tfidf_Lesk_sent_tranformer(text, w2v):
+#     mean_vectorsizer = MeanEmbeddingVectorizer(w2v)
+#     tokens = tokenize(text)
+#     sent_arr = []
+#     for tkn in tokens:
+#         # get the meaning sentence from the wordnet
+#         temp_sent = lesk_word_sense(text, tkn)
+#         sent_arr.append(temp_sent)
+#     word_vec_arr = mean_vectorsizer.transform(sent_arr)
+#     res = {}
+#     for i in range(len(tokens)):
+#         res[tokens[i].lower()] = word_vec_arr[i]
+#     return res
+#     pass
 
-
-
-
-
-
-
-def main():
-    df = pd.read_csv("/Users/aratwani/PycharmProjects/NLPProjects/answers2018-06-12.csv")
-    df.dropna()
-    data = df["answer"].dropna().astype(str)
-
-    pass
-
-
-main()
