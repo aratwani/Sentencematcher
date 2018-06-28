@@ -6,8 +6,7 @@ import Lemmatizer
 import LemmaSentenceMatcher_JaccardIndex as lemma_ji
 # 200  dimensions - done
 # diff
-
-# stemming -
+# stemming
 # Join automd sentences
 
 
@@ -66,7 +65,7 @@ def sent_matcher_tfidf_GloVe_1():
     vectoriser.fit(Lemmatizer.lemmatize_data_frame(df_automd_symptoms))
     vectoriser.fit(Lemmatizer.lemmatize_data_frame(df_ym_symptoms))
     vec_ym_hash = {}
-    output_file = "test7.csv"
+    output_file = "test8.csv"
     for vec_amd in symptoms_automd:
         vec_amd_vector = vectoriser.transform_sent(vec_amd)
         sent_vector_dict = {}

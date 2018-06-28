@@ -95,20 +95,6 @@ class TfidfEmbeddingVectorizer(object):
 
 
 
-    def transform_sent_1(self, X):
-        # only transforms one sentence
-        lesk_word_vector = tfidf_Lesk_sent_tranformer(X, self.word2vec)
-        X = tokenize(X)
-        temp = []
-        for w in X:
-            print(w)
-            if lemmatize(w) in self.word2vec:
-                temp.append()
-        return np.mean(
-            [lesk_word_vector[w] * self.word2weight[w] for w in X if w in self.word2vec] or [np.zeros(self.dim)],
-            axis=0)
-
-
 class TfidfEmbeddingVectorizer_Lesk(object):
     def __init__(self, word2vec):
         self.word2vec = word2vec
