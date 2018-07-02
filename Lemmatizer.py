@@ -21,10 +21,11 @@ def get_wordnet_pos(pos_tag):
     else:
         return (pos_tag[0], wordnet.NOUN)
 
-
+# Lemmatizes a sentence
 def lemmatize(a):
     try:
         a = a.lower()
+        a = "".join([ch for ch in a if ch not in string.punctuation])
         pos_a = map(get_wordnet_pos, nltk.pos_tag(tokenizer.tokenize(a)))
         lemmatizer = nltk.stem.wordnet.WordNetLemmatizer()
         lemmae_a = [lemmatizer.lemmatize(token.lower().strip(string.punctuation), pos) for token, pos in pos_a if token.lower().strip(string.punctuation) not in stopwords]
