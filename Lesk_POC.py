@@ -45,7 +45,31 @@ def sent_matcher_tfidf_Lesk():
     vectoriser.fit(Lemmatizer.lemmatize_data_frame(df_automd_symptoms))
     vectoriser.fit(Lemmatizer.lemmatize_data_frame(df_ym_symptoms))
     vec_ym_hash = {}
-    output_file = "lesk_test2.csv"
+    vec_amd_hash = {}
+    output_file = "lesk_test3.csv"
+
+
+    # # for vec_amd in symptoms_automd:
+    # #     vec_amd_vector = vectoriser.transform_sent_1(vec_amd, vectoriser)
+    # #     vec_amd_hash[vec_amd] = vec_amd_vector
+    #
+    # for vec_ym in symptoms_YM:
+    #     vec_ym_vector = vectoriser.transform_sent_1(vec_ym, vectoriser)
+    #     vec_ym_hash[vec_ym] = vec_ym_vector
+    #
+    # # for vec_amd in vec_amd_hash:
+    # #     sent_vector_dict = {}
+    # #     for vec_ym in vec_ym_hash:
+    # #         similarity = vec_lib.cosine_similarity_vector(vec_amd_vector, vec_ym_vector)
+    # #         sent_vector_dict[vec_ym] = similarity
+    # #         print(vec_amd, vec_ym, similarity)
+    # #         pass
+    # #     max_similarity_vector = max(sent_vector_dict, key=sent_vector_dict.get)
+    # #     vec_lib.write_line_to_csv([vec_amd, max_similarity_vector, sent_vector_dict[max_similarity_vector]],
+    # #                                   ["amd", "ym", "similarity"], output_file)
+    # #     print(vec_amd, ',', max_similarity_vector, ",", sent_vector_dict[max_similarity_vector])
+
+
     for vec_amd in symptoms_automd:
         vec_amd_vector = vectoriser.transform_sent_1(vec_amd, vectoriser)
         sent_vector_dict = {}

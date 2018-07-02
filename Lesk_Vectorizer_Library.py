@@ -6,8 +6,10 @@ from pywsd.similarity import max_similarity
 import Lemmatizer
 import tfidf_vectoriser_library as vec_lib
 
+word_sense_vector_hash = {}
 
 class TfidfEmbeddingVectorizer_Lesk(object):
+    # this hash is used to store the sense vectors of the words,
     def __init__(self, word2vec):
         self.word2vec = word2vec
         self.word2weight = None
@@ -28,55 +30,51 @@ class TfidfEmbeddingVectorizer_Lesk(object):
             [(w, tfidf.idf_[i]) for w, i in tfidf.vocabulary_.items()])
         return self
 
-    def transform_sent_1(self, X, vectoriser):
-        # only transforms one sentence
-        lesk_word_vector = tfidf_Lesk_sent_tranformer(X, vectoriser)
-        X = Lemmatizer.lemmatize(X)
-        # temp_vector_container = []
-        # for w in X:
-        #     # print(w)
-        #     temp_vector_container.append(lesk_word_vector[w] * self.word2weight[w])
-        # temp_mean = np.mean(temp_vector_container, axis=0)
-        # print(temp_mean)
-        return np.mean(
-            [lesk_word_vector[w] * self.word2weight[w] for w in X if w in self.word2vec] or [np.zeros(self.dim)],
-            axis=0)
+    def transform_sent_1(self, text, vectoriser):
+        # only transforms one sentence using Lesk algorithm
+        tokens = Lemmatizer.lemmatize(text)
+        lesk_word_vectors = tfidf_Lesk_sent_tranformer(text,tokens,vectoriser)
+        # return np.mean(
+        #     [lesk_word_vectors[w] * self.word2weight[w] for w in tokens if w in self.word2vec] or [np.zeros(self.dim)],
+        #     axis=0)
+        return np.mean([lesk_word_vectors[w] * self.word2weight[w] for w in tokens], axis=0)
 
-    def transform_sent(self, X):
-        # only transforms one sentence
-        test_sent = X
-        X = Lemmatizer.lemmatize(X)
+    def transform_sent(self, text):
+        # only transforms one sentence using tfidf weighting and GloVe
+        tokens = Lemmatizer.lemmatize(text)
         try:
-            return np.average([self.word2vec[w] * self.word2weight[w] for w in X if w in self.word2vec] or [np.zeros(self.dim)], axis=0, weights=[self.word2weight[w] for w in X if w in self.word2vec])
+            return np.average([self.word2vec[w] * self.word2weight[w] for w in tokens if w in self.word2vec] or [np.zeros(self.dim)], axis=0, weights=[self.word2weight[w] for w in tokens if w in self.word2vec])
         except:
-            print("Error for : ", X)
+            print("Error for : ", text)
             return np.zeros(self.dim)
             pass
 
 
-def lesk_word_sense(tokens, word):
-    # pos_tagged = nltk.pos_tag(vec_lib.tokenize(tokens), tagset='universal')
-    # need to fix this
-    # if pos_tagged[1][1]=='VERB':
-    #     temp_pos = 'v'
-    # else:
-    temp_pos = 'n'
-    temp_synset = max_similarity(tokens, word, pos=temp_pos)
+def lesk_word_sense(text, word, pos_tagged):
+    # get the meaaning of the word from the context
+    if pos_tagged[1] == 'VERB':
+        temp_pos = 'v'
+    else:
+        temp_pos = 'n'
+    temp_synset = max_similarity(text, word, pos=temp_pos)
     if temp_synset:
         return temp_synset.definition()
     else:
         return word
 
 
-def tfidf_Lesk_sent_tranformer(text, vectoriser):
-    tokens = Lemmatizer.lemmatize(text)
-    sent_arr = {}
-    for tkn in tokens:
-        # get the meaning sentence from the wordnet
-        temp_sent = lesk_word_sense(text, tkn)
-        sent_arr[tkn] = temp_sent
+def tfidf_Lesk_sent_tranformer(text, tokens,vectoriser):
     res = {}
+    pos_tagged = nltk.pos_tag(tokens, tagset='universal')
     for i in range(len(tokens)):
-        res[tokens[i]] = vectoriser.transform_sent(sent_arr[tokens[i]])
+        # get the meaning sentence from the wordnet, get its vector and return the set of vectors
+        tkn = tokens[i]
+        temp_sent = lesk_word_sense(text, tkn, pos_tagged[i])
+        if temp_sent not in word_sense_vector_hash:
+            res[tkn] = vectoriser.transform_sent(temp_sent)
+            word_sense_vector_hash[temp_sent] = res[tkn]
+        else:
+            res[tkn] = word_sense_vector_hash[temp_sent]
+
     return res
     pass
