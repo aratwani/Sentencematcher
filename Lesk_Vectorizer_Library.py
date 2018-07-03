@@ -4,8 +4,9 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from collections import defaultdict
 from pywsd.similarity import max_similarity
 import Lemmatizer
-import tfidf_vectoriser_library as vec_lib
-
+import os
+import pandas as pd
+import sys
 word_sense_vector_hash = {}
 
 class TfidfEmbeddingVectorizer_Lesk(object):
@@ -77,4 +78,18 @@ def tfidf_Lesk_sent_tranformer(text, tokens,vectoriser):
             res[tkn] = word_sense_vector_hash[temp_sent]
 
     return res
+    pass
+
+
+def get_list_of_uniques_amd_symptoms(ans_file_path):
+    stop_ans = ["Yes", "No", "Not Sure", "All the time", "Front", "Rear", "When turning", ""]
+    try:
+        if os.path.isfile(ans_file_path):
+            ans_data = pd.read_csv(ans_file_path, error_bad_lines=False)
+            ans_unique = ans_data['answer'].unique()
+            amd_unique_symptoms = np.array([sent for sent in ans_unique if sent not in stop_ans])
+            amd_unique_symptoms = np.trim_zeros(amd_unique_symptoms)
+            return amd_unique_symptoms
+    except:
+        print("Error in get_list_of_uniques_problems: \n", sys.exc_info()[0], sys.exc_info()[1])
     pass
