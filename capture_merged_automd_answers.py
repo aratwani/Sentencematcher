@@ -1,15 +1,18 @@
 import os
 import sys
-import numpy as np
 import pandas as pd
+import tfidf_vectoriser_library as vec_lib
 
+# this code is imply to find all the paths followed by the automd crawler
 
 def get_parent_path(slice_df, temp_parent_id):
-    if temp_parent_id == 1 or temp_parent_id==2:
-        return ''
     for i, row in slice_df.iterrows():
         if row[0] == temp_parent_id:
-            return get_parent_path(slice_df,row[1]) + "--" + str(row[3])
+            if row[1] == 1 or row[1] == 2:
+                return str(row[3])
+            else:
+                return get_parent_path(slice_df,row[1]) + "--" + str(row[3])
+
 
 def get_list_of_uniques_problems(ans_file_path):
     try:
@@ -38,7 +41,10 @@ def get_list_of_uniques_problems(ans_file_path):
                     temp_parent_id = row[1]
                     leaf_text = row[3] if isinstance(row[3],str) else ''
                     try:
-                        print(get_parent_path(slice_df, temp_parent_id) + "--" + leaf_text)
+                        temp_path = get_parent_path(slice_df, temp_parent_id) + "--" + leaf_text
+                        print(temp_path)
+                        vec_lib.write_line_to_csv([temp_path], ['problem_path'], 'automd_answers_merged.csv')
+
                     except:
                         print("Error in get_list_of_uniques_problems: \n", sys.exc_info()[0], sys.exc_info()[1])
 
