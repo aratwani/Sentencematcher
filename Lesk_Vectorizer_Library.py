@@ -31,7 +31,7 @@ class TfidfEmbeddingVectorizer_Lesk(object):
             [(w, tfidf.idf_[i]) for w, i in tfidf.vocabulary_.items()])
         return self
 
-    def transform_sent_1(self, text, vectoriser):
+    def transform_sent_lesk(self, text, vectoriser):
         # only transforms one sentence using Lesk algorithm
         tokens = Lemmatizer.lemmatize(text)
         lesk_word_vectors = tfidf_Lesk_sent_tranformer(text,tokens,vectoriser)
@@ -40,7 +40,7 @@ class TfidfEmbeddingVectorizer_Lesk(object):
         #     axis=0)
         return np.mean([lesk_word_vectors[w] * self.word2weight[w] for w in tokens], axis=0)
 
-    def transform_sent(self, text):
+    def transform_sent_glove(self, text):
         # only transforms one sentence using tfidf weighting and GloVe
         tokens = Lemmatizer.lemmatize(text)
         try:
@@ -72,7 +72,7 @@ def tfidf_Lesk_sent_tranformer(text, tokens,vectoriser):
         tkn = tokens[i]
         temp_sent = lesk_word_sense(text, tkn, pos_tagged[i])
         if temp_sent not in word_sense_vector_hash:
-            res[tkn] = vectoriser.transform_sent(temp_sent)
+            res[tkn] = vectoriser.transform_sent_glove(temp_sent)
             word_sense_vector_hash[temp_sent] = res[tkn]
         else:
             res[tkn] = word_sense_vector_hash[temp_sent]

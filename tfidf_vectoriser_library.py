@@ -86,7 +86,6 @@ class TfidfEmbeddingVectorizer(object):
         self.word2weight = defaultdict(
             lambda: max_idf,
             [(w, tfidf.idf_[i]) for w, i in tfidf.vocabulary_.items()])
-
         return self
 
     def transform(self, X):
