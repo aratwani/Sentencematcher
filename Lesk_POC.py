@@ -37,7 +37,7 @@ def sent_matcher_tfidf_Lesk():
 
     # df_automd_symptoms = lesk_vec_lib.get_list_of_uniques_amd_symptoms("/Users/aratwani/PycharmProjects/NLPProjects/answers2018-06-12.csv")
     df_automd_symptoms = lesk_vec_lib.get_list_of_uniques_amd_symptoms_merged(
-        "/Users/aratwani/PycharmProjects/NLPProjects/answers_merged_section2.csv")
+        "/Users/aratwani/PycharmProjects/NLPProjects/automd_answers_merged.csv")
     # df_automd_symptoms.dropna()
     # symptoms_automd = df_automd_symptoms["answer"].replace('', np.nan).dropna().astype(str)
     symptoms_automd = df_automd_symptoms
@@ -50,7 +50,7 @@ def sent_matcher_tfidf_Lesk():
     vectoriser.fit(Lemmatizer.lemmatize_data_frame(df_ym_symptoms))
     vec_ym_hash = {}
     vec_amd_hash = {}
-    output_file = "lesk_test_merged_1.csv"
+    output_file = "lesk_test_merged_2.csv"
 
     for vec_amd in symptoms_automd:
         if vec_amd not in vec_amd_hash:
@@ -58,8 +58,8 @@ def sent_matcher_tfidf_Lesk():
             vec_amd_hash[vec_amd] = vec_amd_vector
         else:
             vec_amd_vector = vec_amd_hash[vec_amd]
-        sent_vector_dict = {}
-        sent_jci_dict = {}
+        sent_lesk_similarity_dict = {}
+        sent_jci_similarity_dict = {}
         for vec_ym in symptoms_YM:
             if vec_ym not in vec_ym_hash:
                 vec_ym_vector = vectoriser.transform_sent_1(vec_ym, vectoriser)
@@ -68,25 +68,26 @@ def sent_matcher_tfidf_Lesk():
                 vec_ym_vector = vec_ym_hash[vec_ym]
             similarity = vec_lib.cosine_similarity_vector(vec_amd_vector, vec_ym_vector)
             if similarity > 0.7:
-                sent_vector_dict[vec_ym] = similarity
+                sent_lesk_similarity_dict[vec_ym] = similarity
                 jaccard_index = lemma_ji.lemma_match_jaccard_index(vec_ym, vec_amd)
-                sent_jci_dict[vec_ym] = jaccard_index
+                sent_jci_similarity_dict[vec_ym] = jaccard_index
             print(vec_amd, vec_ym, similarity)
             pass
-        if len(sent_jci_dict):
-            max_jaccard_index = max(sent_jci_dict, key=sent_jci_dict.get)
-            vec_lib.write_line_to_csv([vec_amd, max_jaccard_index, sent_vector_dict[max_jaccard_index]],
+        if len(sent_jci_similarity_dict):
+            max_jaccard_index = max(sent_jci_similarity_dict, key=sent_jci_similarity_dict.get)
+            vec_lib.write_line_to_csv([vec_amd, max_jaccard_index, sent_lesk_similarity_dict[max_jaccard_index]],
                                       ["amd", "ym", "similarity"], output_file)
-            print(vec_amd, ',', max_jaccard_index, ",", sent_vector_dict[max_jaccard_index])
-            # max_similarity_vector = max(sent_vector_dict, key=sent_vector_dict.get)
-            # vec_lib.write_line_to_csv([vec_amd, max_similarity_vector, sent_vector_dict[max_similarity_vector]],
+            print(vec_amd, ',', max_jaccard_index, ",", sent_lesk_similarity_dict[max_jaccard_index])
+            # max_similarity_vector = max(sent_lesk_similarity_dict, key=sent_lesk_similarity_dict.get)
+            # vec_lib.write_line_to_csv([vec_amd, max_similarity_vector, sent_lesk_similarity_dict[max_similarity_vector]],
             #                           ["amd", "ym", "similarity"], output_file)
-            # print(vec_amd, ',', max_similarity_vector, ",", sent_vector_dict[max_similarity_vector])
+            # print(vec_amd, ',', max_similarity_vector, ",", sent_lesk_similarity_dict[max_similarity_vector])
         else:
             vec_lib.write_line_to_csv([vec_amd, "", 0], ["amd", "ym", "similarity"], output_file)
 
         pass
     pass
+
 
 def main():
     # test_lesk()

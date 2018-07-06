@@ -99,7 +99,7 @@ def get_list_of_uniques_amd_symptoms_merged(ans_file_path):
     try:
         if os.path.isfile(ans_file_path):
             ans_data = pd.read_csv(ans_file_path, error_bad_lines=False)
-            ans_unique = ans_data['Problem_Path'].unique()
+            ans_unique = ans_data['problem_path'].unique()
             amd_unique_symptoms = np.array([sent for sent in ans_unique if sent not in stop_ans])
             amd_unique_symptoms = np.trim_zeros(amd_unique_symptoms)
             return amd_unique_symptoms

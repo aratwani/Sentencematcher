@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6cbbd170-85b3-4f52-8962-acc00712450c" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/capture_merged_automd_answers.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Lesk_POC.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lesk_POC.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Lesk_Vectorizer_Library.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lesk_Vectorizer_Library.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test1.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test1_2.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test1_3.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_merged_automd_answers.py" beforeDir="false" afterPath="$PROJECT_DIR$/capture_merged_automd_answers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tfidf_vectoriser_library.py" beforeDir="false" afterPath="$PROJECT_DIR$/tfidf_vectoriser_library.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,35 +17,54 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="capture_merged_automd_answers.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/capture_merged_automd_answers.py">
+      <file leaf-file-name="Lesk_POC.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Lesk_POC.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="244">
-              <caret line="19" column="32" lean-forward="true" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
+            <state relative-caret-position="82">
+              <caret line="67" selection-start-line="67" selection-end-line="88" selection-end-column="8" />
               <folding>
-                <element signature="e#0#9#0" expanded="true" />
+                <element signature="e#0#11#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tf_idf_sentence_matcher.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tf_idf_sentence_matcher.py">
+      <file leaf-file-name="data.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/nltk/data.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="64" column="38" lean-forward="true" selection-start-line="64" selection-start-column="30" selection-end-line="64" selection-end-column="50" />
+            <state relative-caret-position="125">
+              <caret line="1398" selection-start-line="1398" selection-end-line="1398" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Lesk_Vectorizer_Library.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Lesk_Vectorizer_Library.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="570">
+              <caret line="101" column="44" selection-start-line="101" selection-start-column="44" selection-end-line="101" selection-end-column="44" />
               <folding>
-                <element signature="e#0#19#0" expanded="true" />
+                <element signature="e#0#18#0" expanded="true" />
+                <element signature="e#308#2036#0" />
+                <element signature="e#2088#2372#0" />
+                <element signature="e#2436#2984#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Lemmatizer.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Lemmatizer.py">
+      <file leaf-file-name="tfidf_vectoriser_library.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tfidf_vectoriser_library.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="141">
-              <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
+            <state relative-caret-position="225">
+              <caret line="15" column="19" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="19" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+                <element signature="e#908#1174#0" />
+                <element signature="e#1201#1564#0" />
+                <element signature="e#1611#3013#0" />
+                <element signature="e#3059#3654#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -124,14 +141,14 @@
         <option value="$PROJECT_DIR$/merging_automd_symptoms.py" />
         <option value="$PROJECT_DIR$/tf_idf_sentence_matcher_1.py" />
         <option value="$PROJECT_DIR$/LemmaSentenceMatcher_JaccardIndex.py" />
-        <option value="$PROJECT_DIR$/tfidf_vectoriser_library.py" />
         <option value="$PROJECT_DIR$/Lemmatizer.py" />
         <option value="$PROJECT_DIR$/NLP_Course_Projects/amd_data_preprocessing.py" />
         <option value="$PROJECT_DIR$/tf_idf_sentence_matcher.py" />
         <option value="$PROJECT_DIR$/test.py" />
+        <option value="$PROJECT_DIR$/tfidf_vectoriser_library.py" />
+        <option value="$PROJECT_DIR$/capture_merged_automd_answers.py" />
         <option value="$PROJECT_DIR$/Lesk_Vectorizer_Library.py" />
         <option value="$PROJECT_DIR$/Lesk_POC.py" />
-        <option value="$PROJECT_DIR$/capture_merged_automd_answers.py" />
       </list>
     </option>
   </component>
@@ -186,7 +203,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.capture_merged_automd_answers">
+  <component name="RunManager" selected="Python.Lesk_POC">
     <configuration name="Lesk_POC" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="NLPProjects" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -286,8 +303,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.capture_merged_automd_answers" />
         <item itemvalue="Python.Lesk_POC" />
+        <item itemvalue="Python.capture_merged_automd_answers" />
         <item itemvalue="Python.test" />
         <item itemvalue="Python.amd_data_preprocessing" />
         <item itemvalue="Python.tf_idf_sentence_matcher (1)" />
@@ -347,7 +364,21 @@
       <option name="project" value="LOCAL" />
       <updated>1530649654142</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Optimized the Lesk-TfIdf-Glove algorithm">
+      <created>1530828595182</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1530828595182</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Optimized the Lesk-TfIdf-Glove algorithm">
+      <created>1530830522528</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1530830522528</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -357,20 +388,20 @@
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22696155" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.329849" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32954547" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.27990708" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.27990708" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.3295082" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.33449477" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.33449477" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -492,8 +523,23 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/capture_merged_automd_answers.py</url>
-          <line>42</line>
+          <line>49</line>
           <option name="timeStamp" value="286" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Lesk_POC.py</url>
+          <line>38</line>
+          <option name="timeStamp" value="287" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Lesk_POC.py</url>
+          <line>77</line>
+          <option name="timeStamp" value="288" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Lesk_POC.py</url>
+          <line>76</line>
+          <option name="timeStamp" value="289" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
@@ -506,7 +552,7 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="287" />
+      <option name="time" value="290" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
@@ -652,23 +698,6 @@ print(vec_lib.cosine_similarity_vector(vec1, vec2));</expression-string>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Other stuff/SentenceClass_Glove_Word2Vec.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="29" column="10" selection-start-line="29" selection-start-column="10" selection-end-line="29" selection-end-column="10" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Other stuff/spam_detector2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Other stuff/LemmaSentenceMatcher.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -889,13 +918,6 @@ print(vec_lib.cosine_similarity_vector(vec1, vec2));</expression-string>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/nltk/data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="439">
-          <caret line="1222" selection-start-line="1222" selection-end-line="1222" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/NLP_Course_Projects/amd_data_preprocessing.py" />
     <entry file="file://$PROJECT_DIR$/tf_idf_sentence_matcher_1.py" />
     <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/numpy/linalg/linalg.py">
@@ -960,44 +982,6 @@ print(vec_lib.cosine_similarity_vector(vec1, vec2));</expression-string>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Lesk_POC.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1035">
-          <caret line="69" column="32" selection-start-line="69" selection-start-column="32" selection-end-line="69" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lesk_Vectorizer_Library.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="96" column="43" selection-start-line="96" selection-start-column="4" selection-end-line="96" selection-end-column="43" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-            <element signature="e#308#2036#0" />
-            <element signature="e#2088#2372#0" />
-            <element signature="e#2436#2984#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tfidf_vectoriser_library.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="61" column="30" selection-start-line="61" selection-start-column="6" selection-end-line="61" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-            <element signature="e#339#860#0" />
-            <element signature="e#908#1174#0" />
-            <element signature="e#1201#1564#0" />
-            <element signature="e#1611#3013#0" />
-            <element signature="e#3059#3654#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Lemmatizer.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="141">
@@ -1015,12 +999,66 @@ print(vec_lib.cosine_similarity_vector(vec1, vec2));</expression-string>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/tfidf_vectoriser_library.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="19" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#908#1174#0" />
+            <element signature="e#1201#1564#0" />
+            <element signature="e#1611#3013#0" />
+            <element signature="e#3059#3654#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/automd_answers_merged2018-07-05T15-50-42-83.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-321" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/automd_answers_merged.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-356" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lesk_Vectorizer_Library.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="101" column="44" selection-start-line="101" selection-start-column="44" selection-end-line="101" selection-end-column="44" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#308#2036#0" />
+            <element signature="e#2088#2372#0" />
+            <element signature="e#2436#2984#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/capture_merged_automd_answers.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="19" column="32" lean-forward="true" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
+        <state relative-caret-position="303">
+          <caret line="46" column="91" selection-start-line="46" selection-start-column="91" selection-end-line="46" selection-end-column="91" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/nltk/data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="1398" selection-start-line="1398" selection-end-line="1398" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lesk_POC.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="82">
+          <caret line="67" selection-start-line="67" selection-end-line="88" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
           </folding>
         </state>
       </provider>

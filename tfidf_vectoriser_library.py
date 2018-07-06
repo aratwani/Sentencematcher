@@ -10,6 +10,14 @@ import os
 import csv
 import Lemmatizer
 import string
+import datetime
+
+
+def get_timestamp():
+    now = datetime.datetime.now()
+    curr_time = now.strftime('%Y-%m-%dT%H-%M-%S') + ('-%02d' % (now.microsecond / 10000))
+    return curr_time
+    pass
 
 
 def write_line_to_csv(line, header, filename):

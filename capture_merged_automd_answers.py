@@ -16,6 +16,7 @@ def get_parent_path(slice_df, temp_parent_id):
 
 def get_list_of_uniques_problems(ans_file_path):
     try:
+        opfilename = 'automd_answers_merged' + vec_lib.get_timestamp() + '.csv'
         if os.path.isfile(ans_file_path):
             ans_data = pd.read_csv(ans_file_path, error_bad_lines=False)
             leaf_ids = ans_data[ans_data.difficulty.notnull()]
@@ -43,7 +44,7 @@ def get_list_of_uniques_problems(ans_file_path):
                     try:
                         temp_path = get_parent_path(slice_df, temp_parent_id) + "--" + leaf_text
                         print(temp_path)
-                        vec_lib.write_line_to_csv([temp_path], ['problem_path'], 'automd_answers_merged.csv')
+                        vec_lib.write_line_to_csv([temp_path], ['problem_path'], opfilename)
 
                     except:
                         print("Error in get_list_of_uniques_problems: \n", sys.exc_info()[0], sys.exc_info()[1])
