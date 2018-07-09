@@ -90,6 +90,10 @@ def sent_matcher_tfidf_Lesk():
 
 
 def sent_matcher_lesk_glove_jaccard(ym_symptoms_path, amd_symptoms_path):
+    # define threshold for both the algorithms
+    lesk_threshold = 0.89
+    glove_threshlold = 0.65
+
     df_ym_symptoms = pd.read_csv(ym_symptoms_path)
     df_ym_symptoms.dropna()
     symptoms_YM = df_ym_symptoms["Symptoms"].replace('', np.nan).dropna().astype(str)
@@ -119,57 +123,61 @@ def sent_matcher_lesk_glove_jaccard(ym_symptoms_path, amd_symptoms_path):
                 vec_amd_lesk_vector = vec_amd_lesk_hash[vec_amd]
             sent_lesk_similarity_dict = {}
             for vec_ym in symptoms_YM:
-                if vec_ym not in vec_ym_lesk_hash:
-                    vec_ym_lesk_vector = vectoriser.transform_sent_lesk(vec_ym, vectoriser)
-                    vec_ym_lesk_hash[vec_ym] = vec_ym_lesk_vector
-                else:
-                    vec_ym_lesk_vector = vec_ym_lesk_hash[vec_ym]
-                similarity_lesk = vec_lib.cosine_similarity_vector(vec_amd_lesk_vector, vec_ym_lesk_vector)
-                if similarity_lesk > 0.89:
-                    sent_lesk_similarity_dict[vec_ym] = similarity_lesk
-                print(vec_amd, vec_ym, similarity_lesk)
+                try:
+                    if vec_ym not in vec_ym_lesk_hash:
+                        vec_ym_lesk_vector = vectoriser.transform_sent_lesk(vec_ym, vectoriser)
+                        vec_ym_lesk_hash[vec_ym] = vec_ym_lesk_vector
+                    else:
+                        vec_ym_lesk_vector = vec_ym_lesk_hash[vec_ym]
+                    similarity_lesk = vec_lib.cosine_similarity_vector(vec_amd_lesk_vector, vec_ym_lesk_vector)
+                    if similarity_lesk > lesk_threshold:
+                        sent_lesk_similarity_dict[vec_ym] = similarity_lesk
+                    print(vec_amd, vec_ym, similarity_lesk)
+                    pass
+                except:
+                    print("Error occured in Lesk vectorisation for amd: " + vec_amd + " and ym: " + vec_ym)
                 pass
             if len(sent_lesk_similarity_dict):
                 max_lesk_similarity_vector = max(sent_lesk_similarity_dict, key=sent_lesk_similarity_dict.get)
                 max_lesk_similarity_value = sent_lesk_similarity_dict[max_lesk_similarity_vector]
-                if max_lesk_similarity_value >= 0.89:
-                    vec_lib.write_line_to_csv([vec_amd, max_lesk_similarity_vector, max_lesk_similarity_value], ["amd", "ym", "similarity"], output_file)
-                    print(vec_amd, ',', max_lesk_similarity_vector, ",", max_lesk_similarity_value)
+                vec_lib.write_line_to_csv([vec_amd, max_lesk_similarity_vector, max_lesk_similarity_value], ["amd", "ym", "similarity"], output_file)
+                print(vec_amd, ',', max_lesk_similarity_vector, ",", max_lesk_similarity_value)
+            else:
+                # use standard glove + tfidf + Jaccard index
+                print("***--******--***match not found using lesk, proceeding with Glove and Jaccard***--******--***")
+                if vec_amd not in vec_amd_glove_hash:
+                    vec_amd_glove_vector = vectoriser.transform_sent_glove(vec_amd)
+                    vec_amd_glove_hash[vec_amd] = vec_amd_glove_vector
                 else:
-                    # use standard glove + tfidf + Jaccard index
-                    if vec_amd not in vec_amd_glove_hash:
-                        vec_amd_glove_vector = vectoriser.transform_sent_glove(vec_amd)
-                        vec_amd_glove_hash[vec_amd] = vec_amd_glove_vector
-                    else:
-                        vec_amd_glove_vector = vec_amd_glove_hash[vec_amd]
-                    sent_glove_similarity_dict = {}
-                    sent_jci_similarity_dict = {}
-                    for vec_ym in symptoms_YM:
+                    vec_amd_glove_vector = vec_amd_glove_hash[vec_amd]
+                sent_glove_similarity_dict = {}
+                sent_jci_similarity_dict = {}
+                for vec_ym in symptoms_YM:
+                    try:
                         if vec_ym not in vec_ym_glove_hash:
                             vec_ym_vector = vectoriser.transform_sent_glove(vec_ym)
                             vec_ym_glove_hash[vec_ym] = vec_ym_vector
                         else:
                             vec_ym_vector = vec_ym_glove_hash[vec_ym]
                         similarity_glove = vec_lib.cosine_similarity_vector(vec_amd_glove_vector, vec_ym_vector)
-                        if similarity_glove > 0.65:
+                        if similarity_glove > glove_threshlold:
                             jaccard_index_glove = lemma_ji.lemma_match_jaccard_index(vec_ym, vec_amd)
                             sent_jci_similarity_dict[vec_ym] = jaccard_index_glove
                             sent_glove_similarity_dict[vec_ym] = similarity_glove
                         print(vec_amd, vec_ym, similarity_glove)
-                        pass
-                    if len(sent_jci_similarity_dict):
-                        max_jaccard_index_glove_vector = max(sent_jci_similarity_dict, key=sent_jci_similarity_dict.get)
-                        max_jaccard_index_glove_value = sent_glove_similarity_dict[max_jaccard_index_glove_vector]
-                        # max_similarity_vector = max(sent_glove_similarity_dict, key=sent_glove_similarity_dict.get)
-                        vec_lib.write_line_to_csv([vec_amd, max_jaccard_index_glove_vector, max_jaccard_index_glove_value], ["amd", "ym", "similarity"], output_file)
-                        print(vec_amd, ',', max_jaccard_index_glove_vector, ",", max_jaccard_index_glove_value)
-                    else:
-                        vec_lib.write_line_to_csv([vec_amd, "", 0], ["amd", "ym", "similarity"], output_file)
+                    except:
+                        print("Error occured in Glove vectorisation for amd: " + vec_amd + " and ym: " + vec_ym)
                     pass
+                if len(sent_jci_similarity_dict):
+                    max_jaccard_index_glove_vector = max(sent_jci_similarity_dict, key=sent_jci_similarity_dict.get)
+                    max_jaccard_index_glove_value = sent_glove_similarity_dict[max_jaccard_index_glove_vector]
+                    # max_similarity_vector = max(sent_glove_similarity_dict, key=sent_glove_similarity_dict.get)
+                    vec_lib.write_line_to_csv([vec_amd, max_jaccard_index_glove_vector, max_jaccard_index_glove_value], ["amd", "ym", "similarity"], output_file)
+                    print(vec_amd, ',', max_jaccard_index_glove_vector, ",", max_jaccard_index_glove_value)
+                else:
+                    vec_lib.write_line_to_csv([vec_amd, "", 0], ["amd", "ym", "similarity"], output_file)
                 pass
-
-            else:
-                vec_lib.write_line_to_csv([vec_amd, "", 0], ["amd", "ym", "similarity"], output_file)
+            pass
         except:
             print("Error: the following statement will be skipped! : ", vec_amd)
         pass

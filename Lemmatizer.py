@@ -31,7 +31,7 @@ def lemmatize(a):
         lemmae_a = [lemmatizer.lemmatize(token.lower().strip(string.punctuation), pos) for token, pos in pos_a if token.lower().strip(string.punctuation) not in stopwords]
         return lemmae_a
     except:
-        print("Error in custom Lemmatizer")
+        print("Error in custom Lemmatizer for sent", a)
 
 def lemmatize_data_frame(data_frame):
     res = []

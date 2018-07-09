@@ -1,5 +1,4 @@
 import pandas as pd
-import sys
 import tfidf_vectoriser_library as vec_lib
 import numpy as np
 import Lemmatizer
