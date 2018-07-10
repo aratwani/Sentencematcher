@@ -35,9 +35,6 @@ class TfidfEmbeddingVectorizer_Lesk(object):
         # only transforms one sentence using Lesk algorithm
         tokens = Lemmatizer.lemmatize(text)
         lesk_word_vectors = tfidf_Lesk_sent_tranformer(text,tokens,vectoriser)
-        # return np.mean(
-        #     [lesk_word_vectors[w] * self.word2weight[w] for w in tokens if w in self.word2vec] or [np.zeros(self.dim)],
-        #     axis=0)
         return np.mean([lesk_word_vectors[w] * self.word2weight[w] for w in tokens], axis=0)
 
     def transform_sent_glove(self, text):

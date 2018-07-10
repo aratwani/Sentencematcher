@@ -42,9 +42,11 @@ def get_list_of_uniques_problems(ans_file_path):
                     temp_parent_id = row[1]
                     leaf_text = row[3] if isinstance(row[3],str) else ''
                     try:
-                        temp_path = get_parent_path(slice_df, temp_parent_id) + "--" + leaf_text
+                        # temp_path = get_parent_path(slice_df, temp_parent_id) + "--" + leaf_text
+                        temp_path = get_parent_path(slice_df, temp_parent_id)
                         print(temp_path)
-                        vec_lib.write_line_to_csv([temp_path], ['problem_path'], opfilename)
+
+                        # vec_lib.write_line_to_csv([temp_path], ['problem_path'], opfilename)
 
                     except:
                         print("Error in get_list_of_uniques_problems: \n", sys.exc_info()[0], sys.exc_info()[1])

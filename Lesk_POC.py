@@ -140,8 +140,8 @@ def sent_matcher_lesk_glove_jaccard(ym_symptoms_path, amd_symptoms_path):
             if len(sent_lesk_similarity_dict):
                 max_lesk_similarity_vector = max(sent_lesk_similarity_dict, key=sent_lesk_similarity_dict.get)
                 max_lesk_similarity_value = sent_lesk_similarity_dict[max_lesk_similarity_vector]
-                vec_lib.write_line_to_csv([vec_amd, max_lesk_similarity_vector, max_lesk_similarity_value], ["amd", "ym", "similarity"], output_file)
-                print(vec_amd, ',', max_lesk_similarity_vector, ",", max_lesk_similarity_value)
+                vec_lib.write_line_to_csv([vec_amd, max_lesk_similarity_vector, max_lesk_similarity_value,"Lesk"], ["amd", "ym", "similarity","algorithm"], output_file)
+                print(vec_amd, ',', max_lesk_similarity_vector, ",", max_lesk_similarity_value,"," , "Lesk")
             else:
                 # use standard glove + tfidf + Jaccard index
                 print("***--******--***match not found using lesk, proceeding with Glove and Jaccard***--******--***")
@@ -172,7 +172,7 @@ def sent_matcher_lesk_glove_jaccard(ym_symptoms_path, amd_symptoms_path):
                     max_jaccard_index_glove_vector = max(sent_jci_similarity_dict, key=sent_jci_similarity_dict.get)
                     max_jaccard_index_glove_value = sent_glove_similarity_dict[max_jaccard_index_glove_vector]
                     # max_similarity_vector = max(sent_glove_similarity_dict, key=sent_glove_similarity_dict.get)
-                    vec_lib.write_line_to_csv([vec_amd, max_jaccard_index_glove_vector, max_jaccard_index_glove_value], ["amd", "ym", "similarity"], output_file)
+                    vec_lib.write_line_to_csv([vec_amd, max_jaccard_index_glove_vector, max_jaccard_index_glove_value, "tfidf_glove"], ["amd", "ym", "similarity","algorithm"], output_file)
                     print(vec_amd, ',', max_jaccard_index_glove_vector, ",", max_jaccard_index_glove_value)
                 else:
                     vec_lib.write_line_to_csv([vec_amd, "", 0], ["amd", "ym", "similarity"], output_file)
