@@ -9,6 +9,7 @@ stopwords.append('')
 tokenizer = tfidf_vectoriser_library
 lemmatizer = nltk.stem.wordnet.WordNetLemmatizer()
 
+
 def get_wordnet_pos(pos_tag):
     if pos_tag[1].startswith('J'):
         return (pos_tag[0], wordnet.ADJ)
@@ -20,6 +21,7 @@ def get_wordnet_pos(pos_tag):
         return (pos_tag[0], wordnet.ADV)
     else:
         return (pos_tag[0], wordnet.NOUN)
+
 
 # Lemmatizes a sentence
 def lemmatize(a):
