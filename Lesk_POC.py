@@ -102,7 +102,8 @@ def sent_matcher_lesk_glove_jaccard(ym_symptoms_path, amd_symptoms_path):
     symptoms_automd = df_automd_symptoms
 
     # GET TRAINED VECTORS
-    w2v = vec_lib.import_glove6b_pretrained_vectors()
+    # w2v = vec_lib.import_glove6b_pretrained_vectors()
+    w2v = vec_lib.import_word2vec_vectors()
     # CREATE VECTORISER OBJECT
     vectoriser = lesk_vec_lib.TfidfEmbeddingVectorizer_Lesk(w2v)
     vectoriser.fit(Lemmatizer.lemmatize_data_frame(df_automd_symptoms))
@@ -112,7 +113,7 @@ def sent_matcher_lesk_glove_jaccard(ym_symptoms_path, amd_symptoms_path):
     vec_amd_lesk_hash = {}
     vec_ym_glove_hash = {}
     vec_amd_glove_hash = {}
-    output_file = "benchmark_file1.csv"
+    output_file = "benchmark_file_w2v_1.csv"
 
     for vec_amd in symptoms_automd:
         try:
@@ -138,12 +139,8 @@ def sent_matcher_lesk_glove_jaccard(ym_symptoms_path, amd_symptoms_path):
                 except:
                     print("Error occured in Lesk vectorisation for amd: " + vec_amd + " and ym: " + vec_ym)
                 pass
-            #if len(sent_lesk_similarity_dict):
             max_lesk_similarity_vector = max(sent_lesk_similarity_dict, key=sent_lesk_similarity_dict.get)
             max_lesk_similarity_value = sent_lesk_similarity_dict[max_lesk_similarity_vector]
-            #vec_lib.write_line_to_csv([vec_amd, max_lesk_similarity_vector, max_lesk_similarity_value,"Lesk"], ["amd", "ym_lesk", "lesk_similarity","tfidf_glove_ym", "tfidf_glove_similarity", "glove_ji_ym", "golve_ji_similarity"], output_file)
-            #print(vec_amd, ',', max_lesk_similarity_vector, ",", max_lesk_similarity_value,"," , "Lesk")
-            #else:
             # use standard glove + tfidf + Jaccard index
             print("***--******--***match not found using lesk, proceeding with Glove and Jaccard***--******--***")
             if vec_amd not in vec_amd_glove_hash:
@@ -177,9 +174,12 @@ def sent_matcher_lesk_glove_jaccard(ym_symptoms_path, amd_symptoms_path):
             vec_lib.write_line_to_csv([vec_amd, max_lesk_similarity_vector, max_lesk_similarity_value, max_glove_vector, max_glove_value, max_jaccard_index_glove_vector, max_jaccard_index_glove_value],
                                       ["amd", "ym_lesk", "lesk_similarity", "tfidf_glove_ym",
                                        "tfidf_glove_similarity", "glove_ji_ym", "golve_ji_similarity"], output_file)
+
+            # vec_lib.write_line_to_csv(
+            #     [vec_amd, max_glove_vector, max_glove_value,
+            #      max_jaccard_index_glove_vector, max_jaccard_index_glove_value],
+            #     ["amd", "tfidf_glove_ym", "tfidf_glove_similarity", "glove_ji_ym", "golve_ji_similarity"], output_file)
             print(vec_amd, ',', max_jaccard_index_glove_vector, ",", max_jaccard_index_glove_value)
-            # else:
-            #     vec_lib.write_line_to_csv([vec_amd, "", 0], ["amd", "ym", "similarity"], output_file)
             pass
             pass
         except:

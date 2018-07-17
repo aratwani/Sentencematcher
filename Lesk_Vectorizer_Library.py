@@ -41,7 +41,10 @@ class TfidfEmbeddingVectorizer_Lesk(object):
         # only transforms one sentence using tfidf weighting and GloVe
         tokens = Lemmatizer.lemmatize(text)
         try:
-            return np.average([self.word2vec[w] * self.word2weight[w] for w in tokens if w in self.word2vec] or [np.zeros(self.dim)], axis=0, weights=[self.word2weight[w] for w in tokens if w in self.word2vec])
+            #return np.average([self.word2vec[w] * self.word2weight[w] for w in tokens if w in self.word2vec] or [np.zeros(self.dim)], axis=0, weights=[self.word2weight[w] for w in tokens if w in self.word2vec])
+            return np.mean(
+                [self.word2vec[w] * self.word2weight[w] for w in tokens if w in self.word2vec] or [np.zeros(self.dim)],
+                axis=0)
         except:
             print("Error for : ", text)
             return np.zeros(self.dim)

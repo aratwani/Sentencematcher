@@ -54,6 +54,27 @@ def import_glove6b_pretrained_vectors():
     return w2v
 
 
+def import_word2vec_vectors():
+    w2v = {}
+    words = []
+    vecs = []
+    w2v_word_file = "/Users/aratwani/PycharmProjects/NLPProjects/word2vec_vectors/words_index.txt"
+    w2v_vector_file = "/Users/aratwani/PycharmProjects/NLPProjects/word2vec_vectors/words_vectors.npy"
+    with open(w2v_word_file, "rb") as wordfile:
+        for line in wordfile:
+            words.append(line.split()[0].decode('utf-8'))
+
+    vecs = np.load(w2v_vector_file)
+
+    if len(words) != len(vecs) :
+        print("Error extracting the wor2vec files : the index does not match the vectors")
+        return None
+    else:
+        for i in range(len(words)):
+            w2v[words[i]] = vecs[i]
+        return w2v
+
+
 def tokenize(sent):
     # input is a sentence
     # removing punctuation

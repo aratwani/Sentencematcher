@@ -98,10 +98,13 @@ class custom_one_hot_encoder():
         # converts the symptoms to one hot vectors based onto the job name they are mapped to
         jobname_vectors = {}
         for index,row in data.iterrows():
-            symptom = row['symptom'].lower()
-            job_name = row['job_name'].lower()
+            # symptom = row['symptom'].lower()
+            # job_name = row['job_name'].lower()
+            symptom = row['problem_symptom'].lower()
+            job_name = str(row['service']).lower()
             if job_name in jobname_vectors:
-                jobname_vectors[job_name][self.sent_int_dict[symptom]] += 1
+                if jobname_vectors[job_name][self.sent_int_dict[symptom]] == 0:
+                    jobname_vectors[job_name][self.sent_int_dict[symptom]] += 1
                 pass
             else:
                 temp_vector = np.zeros((self.n_values,), dtype=int)
@@ -129,19 +132,20 @@ class custom_one_hot_encoder():
 def sentence_one_hot_encoding():
     from sklearn.preprocessing import OneHotEncoder
     ym_training_data = pd.read_csv(
-        "/Users/aratwani/PycharmProjects/NLPProjects/ym_symptoms_decisiontree_training_data.csv")
-    ym_training_data = ym_training_data.head(100)
-    Y = ym_training_data['symptom'].values
-    vec_encoder = custom_one_hot_encoder();
-    vec_encoder.fit(Y)
+        "/Users/aratwani/PycharmProjects/NLPProjects/automd_answers_merged2018-07-12T11-18-04-74.csv")
+    ym_training_data = ym_training_data
+    # X = ym_training_data['symptom'].values
+    X = ym_training_data['problem_symptom'].values
+    vec_encoder = custom_one_hot_encoder()
+    vec_encoder.fit(X)
     print(vec_encoder.sent_int_dict)
     dict = vec_encoder.transform_one_hot(ym_training_data)
     # dict2 = vec_encoder.transform_int_array(ym_training_data)
-    key = 'Engine Mount'.lower()
-    print(key, dict[key])
-    for idx, val in enumerate(dict[key]):
-        if val == 1:
-            print(idx, ". ", vec_encoder.int_sent_dict[idx])
+    # key = 'Engine Mount'.lower()
+    # print(key, dict[key])
+    # for idx, val in enumerate(dict):
+    #     if val == 1:
+    #         print(idx, ". ", vec_encoder.int_sent_dict[idx])
     return dict, vec_encoder
 
 
@@ -161,7 +165,7 @@ def sent_encoding_random_forest():
 
     print('Accuracy on the training subset: ', tree.score(Xtrain, Ytrain))
     # print('Accuracy on the training subset: ', tree.score(Xtest, Ytest))
-    implementing_and_visualizing_classification_tree(tree, list(ret_value[1].int_sent_dict.values()))
+    implementing_and_visualizing_classification_tree(tree, ret_value[1].int_sent_dict)
     pass
 
 
@@ -184,7 +188,7 @@ def implementing_and_visualizing_classification_tree(clf, feature_names):
     #
     # clf = tree.DecisionTreeClassifier()
     # clf = clf.fit(X, Y)
-    dot_data = tree.export_graphviz(clf, feature_names=feature_names, out_file=None, filled=True, rounded=True)
+    dot_data = tree.export_graphviz(clf, feature_names=list(feature_names.values()), out_file=None, filled=True, rounded=True)
     #dot_data = tree.export_graphviz(clf, out_file=None, filled=True, rounded=True)
     graph = pydotplus.graph_from_dot_data(dot_data)
 
@@ -200,7 +204,8 @@ def implementing_and_visualizing_classification_tree(clf, feature_names):
             dest = graph.get_node(str(edges[edge][i]))[0]
             dest.set_fillcolor(colors[i])
 
-    graph.write_png('tree_3.png')
+    graph.write_png('tree_amd_sample_complete.png')
+    print(feature_names)
     pass
 
 def main():

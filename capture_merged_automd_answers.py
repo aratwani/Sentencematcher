@@ -45,8 +45,11 @@ def get_list_of_uniques_problems(ans_file_path):
                         # temp_path = get_parent_path(slice_df, temp_parent_id) + "--" + leaf_text
                         temp_path = get_parent_path(slice_df, temp_parent_id)
                         print(temp_path)
-
                         # vec_lib.write_line_to_csv([temp_path], ['problem_path'], opfilename)
+                        for txt in temp_path.split('--'):
+                            vec_lib.write_line_to_csv([txt,leaf_text], ['problem_symptom','service'], opfilename)
+
+
 
                     except:
                         print("Error in get_list_of_uniques_problems: \n", sys.exc_info()[0], sys.exc_info()[1])
